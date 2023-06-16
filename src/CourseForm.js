@@ -19,8 +19,11 @@ const CourseForm = ({ onFormSubmit }) => {
 
     const handleBranchChange = (e) => {
         setBranch(e.target.value);
-        setDomain('');
         setFormValid(true);
+    };
+
+    const handleDomainChange = (e) => {
+        setDomain(e.target.value);
     };
 
     return (
@@ -28,7 +31,7 @@ const CourseForm = ({ onFormSubmit }) => {
             <h1>Electives Selection Portal</h1>
             <form onSubmit={handleSubmit}>
                 <label>
-                    Branch:&nbsp;&nbsp;
+                    Branch:
                     <select value={branch} onChange={handleBranchChange}>
                         <option value="">Select Branch</option>
                         <option value="ai">Artificial Intelligence and Data Science</option>
@@ -41,175 +44,122 @@ const CourseForm = ({ onFormSubmit }) => {
                         <option value="mt">Materials Engineering</option>
                     </select>
                 </label>
-                {/* <br /> */}
-                {branch && (
-                    <>
-                        <label>
-                            Semester:&nbsp;&nbsp;
-                            <input
-                                className="input-field"
-                                type="number"
-                                min="1"
-                                max="8"
-                                value={semester}
-                                onChange={(e) => setSemester(e.target.value)}
-                            />
-                        </label>
 
-                        <label>
-                            Credits Completed:&nbsp;&nbsp;
-                            <select
-                                value={credits}
-                                onChange={(e) => setCredits(e.target.value)}
-                            >
-                                <option value="">Credits Completed</option>
-                                <option value="38"> &gt;= 38 credits</option>
-                                <option value="75"> &gt;= 75 credits</option>
-                                <option value="85"> &gt;= 85 credits</option>
-                            </select>
-                        </label>
-
+                <label>
+                    Domain:
+                    <select value={domain} onChange={handleDomainChange}>
+                        <option value="">Select Domain</option>
                         {branch === 'ee' && (
-                            <label>
-                                Domain:&nbsp;&nbsp;
-                                <select
-                                    value={domain}
-                                    onChange={(e) => setDomain(e.target.value)}
-                                >
-                                    <option value="">Select Domain</option>
-                                    <option value="communication">Communication</option>
-                                    <option value="signal_processing">Signal Processing</option>
-                                    <option value="control_engineering">Control Engineering</option>
-                                    <option value="devices_circuits">Devices and Circuits</option>
-                                    <option value="computing_systems">Computing Systems</option>
-                                    <option value="power_engineering">Power Engineering</option>
-                                </select>
-                            </label>
+                            <>
+                                <option value="communication">Communication</option>
+                                <option value="signal_processing">Signal Processing</option>
+                                <option value="control_engineering">Control Engineering</option>
+                                <option value="devices_circuits">Devices and Circuits</option>
+                                <option value="computing_systems">Computing Systems</option>
+                                <option value="power_engineering">Power Engineering</option>
+                            </>
                         )}
                         {branch === 'cse' && (
-                            <label>
-                                Domain:&nbsp;&nbsp;
-                                <select
-                                    value={domain}
-                                    onChange={(e) => setDomain(e.target.value)}
-                                >
-                                    <option value="">Select Domain</option>
-                                    <option value="theory_algorithms">Theory and Algorithms</option>
-                                    <option value="hardware">Hardware</option>
-                                    <option value="systems">Systems</option>
-                                    <option value="network_security">Network and Security</option>
-                                    <option value="ai_ml">AI-ML</option>
-                                    <option value="speech_text_vision">Speech, Text, and Vision</option>
-                                    <option value="social_computing">Social Computing</option>
-                                </select>
-                            </label>
+                            <>
+                                <option value="theory_algorithms">Theory and Algorithms</option>
+                                <option value="hardware">Hardware</option>
+                                <option value="systems">Systems</option>
+                                <option value="network_security">Network and Security</option>
+                                <option value="ai_ml">AI-ML</option>
+                                <option value="speech_text_vision">Speech, Text, and Vision</option>
+                                <option value="social_computing">Social Computing</option>
+                            </>
                         )}
                         {branch === 'ci' && (
-                            <label>
-                                Domain:&nbsp;&nbsp;
-                                <select
-                                    value={domain}
-                                    onChange={(e) => setDomain(e.target.value)}
-                                >
-                                    <option value="">Select Domain</option>
-                                    <option value="sit">Smart Infrastructure Technology</option>
-                                    <option value="geo_eng">Geotechnical Engineering</option>
-                                    <option value="env_eng">Environmental Engineering</option>
-                                    <option value="trans_eng">Transport Engineering</option>
-                                    <option value="cons_infra">Construction and Infrastructure</option>
-                                    <option value="struct_eng">Structural Engineering</option>
-                                    <option value="res_eng">Water Resources Engineering</option>
-                                    <option value="infra_sys">Infrastructure Systems</option>
-                                </select>
-                            </label>
+                            <>
+                                <option value="sit">Smart Infrastructure Technology</option>
+                                <option value="geo_eng">Geotechnical Engineering</option>
+                                <option value="env_eng">Environmental Engineering</option>
+                                <option value="trans_eng">Transport Engineering</option>
+                                <option value="cons_infra">Construction and Infrastructure</option>
+                                <option value="struct_eng">Structural Engineering</option>
+                                <option value="res_eng">Resilient Engineering</option>
+                            </>
                         )}
                         {branch === 'me' && (
-                            <label>
-                                Domain:&nbsp;&nbsp;
-                                <select
-                                    value={domain}
-                                    onChange={(e) => setDomain(e.target.value)}
-                                >
-                                    <option value="">Select Domain</option>
-                                    <option value="design">Design</option>
-                                    <option value="manufacturing">Manufacturing</option>
-                                    <option value="thermofluids">Thermofluids</option>
-                                </select>
-                            </label>
+                            <>
+                                <option value="design">Design</option>
+                                <option value="manufacturing">Manufacturing</option>
+                                <option value="thermofluids">Thermofluids</option>
+                            </>
                         )}
                         {branch === 'mt' && (
-                            <label>
-                                Domain:&nbsp;&nbsp;
-                                <select
-                                    value={domain}
-                                    onChange={(e) => setDomain(e.target.value)}
-                                >
-                                    <option value="">Select Domain</option>
-                                    <option value="struct_mat">Structural Materials</option>
-                                    <option value="func_mat">Functional Materials</option>
-                                    <option value="comp_mat_eng">Computational Materials Engineering</option>
-                                    <option value="process_met">Process Metallurgy</option>
-                                </select>
-                            </label>
+                            <>
+                                <option value="struct_mat">Structural Materials</option>
+                                <option value="func_mat">Functional Materials</option>
+                                <option value="comp_mat_eng">Computational Materials Engineering</option>
+                                <option value="process_met">Process Metallurgy</option>
+                            </>
                         )}
                         {branch === 'ch' && (
-                            <label>
-                                Domain:&nbsp;&nbsp;
-                                <select
-                                    value={domain}
-                                    onChange={(e) => setDomain(e.target.value)}
-                                >
-                                    <option value="">Select Domain</option>
-                                    <option value="chem_eng_design">Chemical Engineering Design</option>
-                                    <option value="process_eng_int">Process Engineering Intelligence</option>
-                                    <option value="cfie">Complex Fluids and Interfacial Engineering</option>
-                                    <option value="sust">Sustainability</option>
-                                    <option value="molec_eng">Molecular Engineering</option>
-                                    <option value="biochem_eng">Biochemical Engineering</option>
-                                </select>
-                            </label>
+                            <>
+                                <option value="chem_eng_design">Chemical Engineering Design</option>
+                                <option value="process_eng_int">Process Engineering Intelligence</option>
+                                <option value="cfie">Complex Fluids and Interfacial Engineering</option>
+                                <option value="sust">Sustainability</option>
+                                <option value="molec_eng">Molecular Engineering</option>
+                                <option value="biochem_eng">Biochemical Engineering</option>
+                            </>
                         )}
                         {branch === 'bb' && (
-                            <label>
-                                Domain:&nbsp;&nbsp;
-                                <select
-                                    value={domain}
-                                    onChange={(e) => setDomain(e.target.value)}
-                                >
-                                    <option value="">Select Domain</option>
-                                    <option value="omics">Omics</option>
-                                    <option value="biom_eng">Biomaterials Engineering</option>
-                                    <option value="csb">Computational and Systems Biology</option>
-                                    <option value="bioimaging">Bioimaging</option>
-                                    <option value="biosensors">Biosensors</option>
-                                    <option value="mssd">Microbial Systems for Sustainable Development</option>
-                                    <option value="ddd">Drug Design and Development</option>
-                                </select>
-                            </label>
+                            <>
+                                <option value="omics">Omics</option>
+                                <option value="biom_eng">Biomaterials Engineering</option>
+                                <option value="csb">Computational and Systems Biology</option>
+                                <option value="bioimaging">Bioimaging</option>
+                                <option value="biosensors">Biosensors</option>
+                                <option value="mssd">Microbial Systems for Sustainable Development</option>
+                                <option value="ddd">Drug Design and Development</option>
+                            </>
                         )}
                         {branch === 'ai' && (
-                            <label>
-                                Domain:&nbsp;&nbsp;
-                                <select
-                                    value={domain}
-                                    onChange={(e) => setDomain(e.target.value)}
-                                >
-                                    <option value="">Select Domain</option>
-                                    <option value="ai_ml">AI and ML</option>
-                                    <option value="robot">Robotics and Automation</option>
-                                    <option value="socio_digital">Socio-Digital Reality</option>
-                                    <option value="sci_intell">Science of Intelligence</option>
-                                    <option value="applications">Applications</option>
-                                    <option value="cps_iot">Cyber Physical Systems, Sensors and IoT</option>
-                                    <option value="data_dis">Data and Discovery Science</option>
-                                </select>
-                            </label>
+                            <>
+                                <option value="ai_ml">AI and ML</option>
+                                <option value="robot">Robotics and Automation</option>
+                                <option value="socio_digital">Socio-Digital Reality</option>
+                                <option value="sci_intell">Science of Intelligence</option>
+                                <option value="applications">Applications</option>
+                                <option value="cps_iot">Cyber Physical Systems, Sensors and IoT</option>
+                                <option value="data_dis">Data and Discovery Science</option>
+                            </>
                         )}
-                        <button type="submit">View Courses</button>
-                        {!formValid && (
-                            <p className="center-message">Please fill in all the details!!</p>
-                        )}
-                    </>
+                    </select>
+                </label>
+
+                <label>
+                    Semester:
+                    <input
+                        className="input-field"
+                        type="number"
+                        min="1"
+                        max="8"
+                        value={semester}
+                        onChange={(e) => setSemester(e.target.value)}
+                    />
+                </label>
+
+                <label>
+                    Credits Completed:
+                    <select
+                        value={credits}
+                        onChange={(e) => setCredits(e.target.value)}
+                    >
+                        <option value="">Credits Completed</option>
+                        <option value="38"> Cr &gt;= 38</option>
+                        <option value="75"> Cr &gt;= 75</option>
+                        <option value="85"> Cr &gt;= 85</option>
+                    </select>
+                </label>
+
+                <button type="submit">View Courses</button>
+
+                {!formValid && (
+                    <p className="center-message">Please fill in all the details!!</p>
                 )}
             </form>
         </div>
