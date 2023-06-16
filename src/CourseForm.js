@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './CourseForm.css';
+import Logo from "./images/iitj_logo.png";
 
 const CourseForm = ({ onFormSubmit }) => {
     const [branch, setBranch] = useState('');
@@ -28,6 +29,7 @@ const CourseForm = ({ onFormSubmit }) => {
 
     return (
         <div className="form-container">
+            <img src={Logo} className="logo-login" alt="Logo" />
             <h1>Electives Selection Portal</h1>
             <form onSubmit={handleSubmit}>
                 <label>

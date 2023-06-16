@@ -24,6 +24,14 @@ body {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
+.logo-login {
+    margin: 0 auto !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-height: 95px;
+}
+
 .form-container h1 {
     text-align: center;
     margin-bottom: 20px;
