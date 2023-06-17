@@ -1,70 +1,101 @@
-# Getting Started with Create React App
+# Electives Selection Portal
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to the Electives Selection Portal GitHub repository! This repository hosts the source code for the Electives Selection Portal, an online platform designed to facilitate the process of selecting program electives for the students of Indian Institute of Technology, Jodhpur.
 
-## Available Scripts
+## Table of Contents
 
-In the project directory, you can run:
+- [Introduction](#introduction)
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
 
-### `npm start`
+## Introduction
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+The Electives Selection Portal provides a user-friendly interface for students to view and choose program elective courses. The portal uses student-provided information, such as branch, domain, semester, and completed credits, to display a customized list of eligible courses. It provides essential details about each course, including descriptions and prerequisites, and offers a convenient link to access the syllabus PDF. Additionally, the portal allows students to generate a PDF document containing their selected courses in a tabulated format, facilitating easy reference for future use.
+These features collectively enhance the user experience of the Elective Selection Portal, providing students with relevant course options, comprehensive information, and convenient methods to store and access their elective selections.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Features
 
-### `npm test`
+The Electives Selection Portal offers the following features:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **Customized Course Display:**
+  - Displays a list of courses based on student information such as branch, domain, semester, and completed credits.
+  - Shows courses that are eligible for the student based on their input.
 
-### `npm run build`
+- **Basic Course Information:**
+  - Provides basic information about each course, including details such as course name, level of the course, and number of credits.
+  - Offers a clear overview of the course content and requirements.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **Syllabus PDF Link:**
+  - Includes a link to the syllabus PDF for each course.
+  - Enables students to access and download the detailed syllabus for further reference.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **Print Functionality:**
+  - Allows students to generate a PDF document containing the list of selected courses.
+  - Presents the course information in a tabulated manner for easy reference and future use.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+## Installation
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+To set up a local development environment, follow these steps:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1. Clone the repository to your local machine using the following command:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+   ```bash
+   git clone https://github.com/your-username/electives-selection-portal.git
+   ```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+2. Navigate to the project directory:
 
-## Learn More
+   ```bash
+   cd electives-selection-portal
+   ```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+3. Run the following command and the website will run locally on `localhost:3000` :
+    ```bash
+   npm install
+   npm start
+   ```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+That's it! You can now explore the Electives Selection Portal locally on your machine.
 
-### Code Splitting
+## Usage
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+The Electives Selection Portal is designed with an intuitive and user-friendly interface. Here are some guidelines for using the portal:
 
-### Analyzing the Bundle Size
+As a student, follow these steps to make your elective selections:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+  - Visit the [portal website](https://electives-selection-portal.netlify.app/).
+  - Provide your branch information.
+  - Select the domain in which you are interested and wish to pursue an elective.
+  - Specify the semester during which you plan to take the elective.
+  - Choose the appropriate range indicating the number of credits you have completed so far.
+  - Click on the 'View Courses' button.
+  - A list of program electives relevant to your eligibility will be displayed, along with basic information about each course.
+  - To save this list of elective courses for future reference, click on the 'Print' button to generate a PDF.
 
-### Making a Progressive Web App
+By following these steps, you can easily explore and select your desired electives through the Electives Selection Portal.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Contributing
 
-### Advanced Configuration
+Contributions to the Electives Selection Portal project are welcome and encouraged! If you have any ideas for improvements, bug fixes, or new features, please follow these steps:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+1. Fork the repository and clone it to your local machine.
 
-### Deployment
+   ```bash
+   git clone https://github.com/your-username/electives-selection-portal.git
+   ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+2. Create a new branch to work on your changes.
 
-### `npm run build` fails to minify
+   ```bash
+   git checkout -b feature/your-feature
+   ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+3. Make your modifications and commit them with descriptive commit messages.
+
+   ```bash
+   git commit -m "Add feature: your feature description"
+   ```
