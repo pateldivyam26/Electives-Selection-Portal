@@ -33,7 +33,7 @@ The Electives Selection Portal offers the following features:
   - Enables students to access and download the detailed syllabus for further reference.
 
 - **Print Functionality:**
-  - Allows students to generate a PDF document containing the list of selected courses.
+  - Allows students to generate a PDF document containing the list of courses the student is eligible for.
   - Presents the course information in a tabulated manner for easy reference and future use.
 
 
@@ -78,6 +78,19 @@ As a student, follow these steps to make your elective selections:
 
 By following these steps, you can easily explore and select your desired electives through the Electives Selection Portal.
 
+<p  align="center">
+<img src="image/img_portal_1.png" width = "960px" alt="form"><br>
+<i>(Fig. 1 : Enter the details)</i>
+</p>
+<p  align="center">
+<img src="image/img_portal_2.png" width = "960px" alt="List of Courses"><br>
+<i>(Fig. 2 : List of Courses)</i>
+</p>
+<p  align="center">
+<img src="image/img_portal_3.png" width = "960px" alt="pdf"><br>
+<i>(Fig. 3 : PDF containing list of courses student is eligible for)</i>
+</p>
+
 ## Contributing
 
 Contributions to the Electives Selection Portal project are welcome and encouraged! If you have any ideas for improvements, bug fixes, or new features, please follow these steps:
@@ -85,7 +98,7 @@ Contributions to the Electives Selection Portal project are welcome and encourag
 1. Fork the repository and clone it to your local machine.
 
    ```bash
-   git clone https://github.com/your-username/electives-selection-portal.git
+   git clone https://github.com/your-username/Electives-Selection-Portal.git
    ```
 
 2. Create a new branch to work on your changes.
