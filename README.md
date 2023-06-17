@@ -44,13 +44,13 @@ To set up a local development environment, follow these steps:
 1. Clone the repository to your local machine using the following command:
 
    ```bash
-   git clone https://github.com/your-username/electives-selection-portal.git
+   git clone https://github.com/your-username/Electives-Selection-Portal.git
    ```
 
 2. Navigate to the project directory:
 
    ```bash
-   cd electives-selection-portal
+   cd Electives-Selection-Portal
    ```
 
 3. Run the following command and the website will run locally on `localhost:3000` :
