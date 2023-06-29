@@ -80,7 +80,8 @@ const CourseForm = ({ onFormSubmit }) => {
                                 <option value="trans_eng">Transport Engineering</option>
                                 <option value="cons_infra">Construction and Infrastructure</option>
                                 <option value="struct_eng">Structural Engineering</option>
-                                <option value="res_eng">Resilient Engineering</option>
+                                <option value="res_eng">Water Resources Engineering</option>
+                                <option value="infra_sys">Infrastructure Systems</option>
                             </>
                         )}
                         {branch === 'me' && (
