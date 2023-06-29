@@ -615,7 +615,7 @@ const courses = {
                 name: 'ICT for Development',
                 level: 400,
                 hours: '2-0-0',
-                credits: 5,
+                credits: 2,
                 syllabus: 'https://cse.iitj.ac.in/images/pdf/curriculum/CSE-Courses-Details.pdf#page=33',
                 semesterAvailability: ['odd','even'],
             },
