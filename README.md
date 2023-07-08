@@ -13,7 +13,7 @@ Welcome to the Electives Selection Portal GitHub repository! This repository hos
 
 ## Introduction
 
-The Electives Selection Portal provides a user-friendly interface for students to view and choose program elective courses. The portal uses student-provided information, such as branch, domain, semester, and completed credits, to display a customized list of eligible courses. It provides essential details about each course, including descriptions and prerequisites, and offers a convenient link to access the syllabus PDF. Additionally, the portal allows students to generate a PDF document containing their selected courses in a tabulated format, facilitating easy reference for future use.
+The Electives Selection Portal provides a user-friendly interface for students to view and choose program elective courses. The portal uses student-provided information, such as branch, domain, and completed credits, to display a customized list of eligible courses. It provides essential details about each course, including descriptions and prerequisites, and offers a convenient link to access the syllabus PDF. It also displays the names of professors who have taught the course in the past two years. Additionally, the portal allows students to generate a PDF document containing their selected courses in a tabulated format, facilitating easy reference for future use.
 These features collectively enhance the user experience of the Elective Selection Portal, providing students with relevant course options, comprehensive information, and convenient methods to store and access their elective selections.
 
 ## Features
@@ -21,11 +21,11 @@ These features collectively enhance the user experience of the Elective Selectio
 The Electives Selection Portal offers the following features:
 
 - **Customized Course Display:**
-  - Displays a list of courses based on student information such as branch, domain, semester, and completed credits.
+  - Displays a list of courses based on student information such as branch, domain, and completed credits.
   - Shows courses that are eligible for the student based on their input.
 
 - **Basic Course Information:**
-  - Provides basic information about each course, including details such as course name, level of the course, and number of credits.
+  - Provides basic information about each course, including details such as course name, level of the course, number of credits and professor names who have taught the course in the past two years.
   - Offers a clear overview of the course content and requirements.
 
 - **Syllabus PDF Link:**
@@ -70,7 +70,6 @@ As a student, follow these steps to make your elective selections:
   - Visit the [portal website](https://electives-selection-portal.netlify.app/).
   - Provide your branch information.
   - Select the domain in which you are interested and wish to pursue an elective.
-  - Specify the semester during which you plan to take the elective.
   - Choose the appropriate range indicating the number of credits you have completed so far.
   - Click on the 'View Courses' button.
   - A list of program electives relevant to your eligibility will be displayed, along with basic information about each course.
