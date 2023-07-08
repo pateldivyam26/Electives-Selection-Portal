@@ -7,7 +7,10 @@ const courses = {
                 hours: '3-0-0',
                 credits: 3,
                 syllabus: 'https://iitj.ac.in/uploaded_docs/UG/EE/2.%20B.Tech%20EE_24092020.pdf#page=40',
-                semesterAvailability: ['odd'], 
+                semesterAvailability: ['odd'],
+                professors: [
+                    
+                ],
             },
             {
                 name: 'Computer Networks (CS)',
@@ -15,7 +18,11 @@ const courses = {
                 hours: '3-0-2',
                 credits: 4.5,
                 syllabus: 'https://cse.iitj.ac.in/images/pdf/curriculum/CSE-Courses-Details.pdf#page=18',
-                semesterAvailability: ['even'], 
+                semesterAvailability: ['even'],
+                professors: [
+                    { year: 2023, name: 'Dr. Debasis Das' },
+                    { year: 2022, name: 'Prof. Ravi Bhandari' },
+                ],
             },
             {
                 name: 'Microwave Engineering',
@@ -23,7 +30,10 @@ const courses = {
                 hours: '3-0-0',
                 credits: 3,
                 syllabus: 'https://iitj.ac.in/uploaded_docs/UG/EE/2.%20B.Tech%20EE_24092020.pdf#page=45',
-                semesterAvailability: ['odd'], 
+                semesterAvailability: ['odd'],
+                professors: [
+                    { year: 2023, name: 'Dr. Arani Ali Khan' },
+                ],
             },
             {
                 name: 'Cellular Communication Networks',
@@ -31,7 +41,10 @@ const courses = {
                 hours: '3-0-0',
                 credits: 3,
                 syllabus: 'https://iitj.ac.in/uploaded_docs/UG/EE/2.%20B.Tech%20EE_24092020.pdf#page=44',
-                semesterAvailability: ['odd'], 
+                semesterAvailability: ['odd'],
+                professors: [
+                    { year: 2022, name: 'Dr. Arun Kumar Singh' },
+                ],
             },
             {
                 name: 'Satellite Communications',
@@ -40,6 +53,9 @@ const courses = {
                 credits: 3,
                 syllabus: 'https://iitj.ac.in/uploaded_docs/UG/EE/2.%20B.Tech%20EE_24092020.pdf#page=43',
                 semesterAvailability: ['even'],
+                professors: [
+                    
+                ],
             },
             {
                 name: 'Spread Spectrum Communications',
@@ -48,14 +64,20 @@ const courses = {
                 credits: 3,
                 syllabus: 'https://iitj.ac.in/uploaded_docs/UG/EE/2.%20B.Tech%20EE_24092020.pdf#page=41',
                 semesterAvailability: ['even', 'odd'],
+                professors: [
+                    
+                ],
             },
             {
                 name: 'Optical Communication Systems',
-                level: 400,
+                level: 700,
                 hours: '3-0-0',
                 credits: 3,
                 syllabus: 'https://iitj.ac.in/uploaded_docs/UG/EE/2.%20B.Tech%20EE_24092020.pdf#page=42',
                 semesterAvailability: ['even'],
+                professors: [
+                    { year: 2023, name: 'Dr. Nitin Bhatia, Dr. Arpit Khandelwal, Dr. Aashish Mathur' },
+                ],
             },
         ],
         signal_processing: [
@@ -66,6 +88,9 @@ const courses = {
                 credits: 2,
                 syllabus: 'https://cse.iitj.ac.in/images/pdf/BTech_AIDE_24092020.pdf#page=50',
                 semesterAvailability: ['odd'],
+                professors: [
+                    { year: 2022, name: 'Dr. Anil Kumar Tiwari' },
+                ],
             },
             {
                 name: 'Speech Processing',
@@ -74,6 +99,9 @@ const courses = {
                 credits: 3,
                 syllabus: 'https://iitj.ac.in/uploaded_docs/UG/EE/2.%20B.Tech%20EE_24092020.pdf#page=48',
                 semesterAvailability: ['even'],
+                professors: [
+                    
+                ],
             },
             {
                 name: 'Signal Compression',
@@ -82,6 +110,9 @@ const courses = {
                 credits: 3,
                 syllabus: 'https://iitj.ac.in/uploaded_docs/UG/EE/2.%20B.Tech%20EE_24092020.pdf#page=47',
                 semesterAvailability: ['even'],
+                professors: [
+                    
+                ],
             },
             {
                 name: 'System Identification',
@@ -89,7 +120,10 @@ const courses = {
                 hours: '3-0-0',
                 credits: 3,
                 syllabus: 'https://iitj.ac.in/uploaded_docs/UG/EE/2.%20B.Tech%20EE_24092020.pdf#page=49',
-                semesterAvailability: ['even'],
+                semesterAvailability: ['odd'],
+                professors: [
+                    { year: 2022, name: 'Dr. Himanshu Kumar' },
+                ],
             },
         ],
         control_engineering: [
@@ -99,7 +133,10 @@ const courses = {
                 hours: '3-0-0',
                 credits: 3,
                 syllabus: 'https://iitj.ac.in/uploaded_docs/UG/EE/2.%20B.Tech%20EE_24092020.pdf#page=51',
-                semesterAvailability: ['odd'], 
+                semesterAvailability: ['odd'],
+                professors: [
+                    
+                ],
             },
             {
                 name: 'Nonlinear and Adaptive Control',
@@ -107,7 +144,10 @@ const courses = {
                 hours: '3-0-0',
                 credits: 3,
                 syllabus: 'https://iitj.ac.in/uploaded_docs/UG/EE/2.%20B.Tech%20EE_24092020.pdf#page=52',
-                semesterAvailability: ['even'], 
+                semesterAvailability: ['even'],
+                professors: [
+                    
+                ],
             },
             {
                 name: 'Robust and Optimal Control',
@@ -115,7 +155,10 @@ const courses = {
                 hours: '3-0-0',
                 credits: 3,
                 syllabus: 'https://iitj.ac.in/uploaded_docs/UG/EE/2.%20B.Tech%20EE_24092020.pdf#page=53',
-                semesterAvailability: ['odd'], 
+                semesterAvailability: ['odd'],
+                professors: [
+                    
+                ],
             },
             {
                 name: 'Foundations of Cyber Physical Systems',
@@ -123,7 +166,10 @@ const courses = {
                 hours: '3-0-0',
                 credits: 3,
                 syllabus: 'https://iitj.ac.in/uploaded_docs/UG/EE/2.%20B.Tech%20EE_24092020.pdf#page=54',
-                semesterAvailability: ['odd'], 
+                semesterAvailability: ['odd'],
+                professors: [
+                    
+                ],
             },
             {
                 name: 'Introduction to Robotics (IDRP)',
@@ -132,6 +178,9 @@ const courses = {
                 credits: 3,
                 syllabus: 'https://shorturl.at/lBJS0',
                 semesterAvailability: ['even'],
+                professors: [
+                    { year: 2023, name: 'Dr. Suril Vijaykumar Shah' },
+                ],
             },
         ],
         devices_circuits: [
@@ -141,7 +190,10 @@ const courses = {
                 hours: '3-0-0',
                 credits: 3,
                 syllabus: 'https://iitj.ac.in/uploaded_docs/UG/EE/2.%20B.Tech%20EE_24092020.pdf#page=56',
-                semesterAvailability: ['even'], 
+                semesterAvailability: ['even'],
+                professors: [
+                    { year: 2023, name: 'Dr. Shree Prakash Tiwari' },
+                ],
             },
             {
                 name: 'Biosensors',
@@ -149,7 +201,11 @@ const courses = {
                 hours: '3-0-2',
                 credits: 4,
                 syllabus: 'https://iitj.ac.in/uploaded_docs/UG/EE/2.%20B.Tech%20EE_24092020.pdf#page=57',
-                semesterAvailability: ['odd'], 
+                semesterAvailability: ['odd'],
+                professors: [
+                    { year: 2023, name: 'Dr. Saakshi Dhanekar' },
+                    { year: 2022, name: 'Dr. Saakshi Dhanekar' },
+                ],
             },
             {
                 name: 'Integrated Circuit Technology',
@@ -157,7 +213,10 @@ const courses = {
                 hours: '3-0-0',
                 credits: 3,
                 syllabus: 'https://iitj.ac.in/uploaded_docs/UG/EE/2.%20B.Tech%20EE_24092020.pdf',
-                semesterAvailability: ['odd'], 
+                semesterAvailability: ['odd'],
+                professors: [
+                    
+                ],
             },
             {
                 name: 'Sensors and Actuators',
@@ -165,7 +224,10 @@ const courses = {
                 hours: '3-0-0',
                 credits: 3,
                 syllabus: 'https://iitj.ac.in/uploaded_docs/UG/EE/2.%20B.Tech%20EE_24092020.pdf#page=59',
-                semesterAvailability: ['odd'], 
+                semesterAvailability: ['odd'],
+                professors: [
+                    
+                ],
             },
             {
                 name: 'CAD for VLSI',
@@ -174,6 +236,9 @@ const courses = {
                 credits: 3,
                 syllabus: 'https://iitj.ac.in/uploaded_docs/UG/EE/2.%20B.Tech%20EE_24092020.pdf#page=58',
                 semesterAvailability: ['even'],
+                professors: [
+                    
+                ],
             },
             {
                 name: 'Physics and Modeling of MOS Transistor',
@@ -181,7 +246,11 @@ const courses = {
                 hours: '3-0-0',
                 credits: 3,
                 syllabus: 'https://iitj.ac.in/uploaded_docs/UG/EE/2.%20B.Tech%20EE_24092020.pdf#page=60',
-                semesterAvailability: ['odd','even'],
+                semesterAvailability: ['odd', 'even'],
+                professors: [
+                    { year: 2023, name: 'Dr. Harshit Agarwal' },
+                    { year: 2021, name: 'Dr. Harshit Agarwal' },
+                ],
             },
         ],
         computing_systems: [
@@ -191,7 +260,11 @@ const courses = {
                 hours: '3-0-0',
                 credits: 3,
                 syllabus: 'https://cse.iitj.ac.in/images/pdf/curriculum/CSE-Courses-Details.pdf#page=25',
-                semesterAvailability: ['even'], 
+                semesterAvailability: ['even'],
+                professors: [
+                    { year: 2023, name: 'Dr. Mayank Vatsa' },
+                    { year: 2022, name: 'Dr. Mayank Vatsa' },
+                ],
             },
             {
                 name: 'High Level Synthesis (CS)',
@@ -199,7 +272,10 @@ const courses = {
                 hours: '3-0-0',
                 credits: 3,
                 syllabus: 'https://cse.iitj.ac.in/images/pdf/curriculum/CSE-Courses-Details.pdf',
-                semesterAvailability: ['even'], 
+                semesterAvailability: ['even'],
+                professors: [
+                    
+                ],
             },
             {
                 name: 'Real-Time Systems',
@@ -207,7 +283,10 @@ const courses = {
                 hours: '3-0-0',
                 credits: 3,
                 syllabus: 'https://iitj.ac.in/uploaded_docs/UG/EE/2.%20B.Tech%20EE_24092020.pdf#page=62',
-                semesterAvailability: ['odd'], 
+                semesterAvailability: ['odd'],
+                professors: [
+                    
+                ],
             },
             {
                 name: 'Reconfigurable Computing',
@@ -215,7 +294,10 @@ const courses = {
                 hours: '3-0-0',
                 credits: 3,
                 syllabus: 'https://iitj.ac.in/uploaded_docs/UG/EE/2.%20B.Tech%20EE_24092020.pdf#page=63',
-                semesterAvailability: ['odd'], 
+                semesterAvailability: ['odd'],
+                professors: [
+                    
+                ],
             },
             {
                 name: 'Pervasive and Mobile Computing (CS)',
@@ -224,6 +306,9 @@ const courses = {
                 credits: 3,
                 syllabus: 'https://cse.iitj.ac.in/images/pdf/curriculum/CSE-Courses-Details.pdf#page=95',
                 semesterAvailability: ['even'],
+                professors: [
+                    { year: 2023, name: 'Dr. Suchetana Chakraborty' },
+                ],
             },
         ],
         power_engineering: [
@@ -233,7 +318,10 @@ const courses = {
                 hours: '3-0-0',
                 credits: 3,
                 syllabus: 'https://iitj.ac.in/uploaded_docs/UG/EE/2.%20B.Tech%20EE_24092020.pdf#page=69',
-                semesterAvailability: ['even'], 
+                semesterAvailability: ['even'],
+                professors: [
+                    { year: 2023, name: 'Dr. Ravi Yadav' },
+                ],
             },
             {
                 name: 'Power System Analysis and Stability',
@@ -241,15 +329,21 @@ const courses = {
                 hours: '3-0-0',
                 credits: 3,
                 syllabus: 'https://iitj.ac.in/uploaded_docs/UG/EE/2.%20B.Tech%20EE_24092020.pdf#page=65',
-                semesterAvailability: ['even'], 
+                semesterAvailability: ['even'],
+                professors: [
+                    
+                ],
             },
             {
-                name: 'Power System Operation and Control ',
+                name: 'Power System Operation and Control',
                 level: 400,
                 hours: '3-0-0',
                 credits: 3,
                 syllabus: 'https://iitj.ac.in/uploaded_docs/UG/EE/2.%20B.Tech%20EE_24092020.pdf#page=66',
-                semesterAvailability: ['odd'], 
+                semesterAvailability: ['odd'],
+                professors: [
+                    { year: 2022, name: 'Dr. Nishant Kumar' },
+                ],
             },
             {
                 name: 'Power Electronics',
@@ -257,7 +351,10 @@ const courses = {
                 hours: '3-0-0',
                 credits: 3,
                 syllabus: 'https://iitj.ac.in/uploaded_docs/UG/EE/2.%20B.Tech%20EE_24092020.pdf#page=67',
-                semesterAvailability: ['odd'], 
+                semesterAvailability: ['odd'],
+                professors: [
+                    
+                ],
             },
             {
                 name: 'Industrial Drives',
@@ -266,6 +363,9 @@ const courses = {
                 credits: 3,
                 syllabus: 'https://iitj.ac.in/uploaded_docs/UG/EE/2.%20B.Tech%20EE_24092020.pdf#page=68',
                 semesterAvailability: ['even'],
+                professors: [
+                    
+                ],
             },
         ],
     },
@@ -277,7 +377,10 @@ const courses = {
                 hours: '3-0-0',
                 credits: 3,
                 syllabus: 'https://cse.iitj.ac.in/images/pdf/curriculum/CSE-Courses-Details.pdf#page=101',
-                semesterAvailability: ['odd','even'],
+                semesterAvailability: ['odd', 'even'],
+                professors: [
+                    
+                ],
             },
             {
                 name: 'Approximation Algorithms',
@@ -285,7 +388,10 @@ const courses = {
                 hours: '3-0-0',
                 credits: 3,
                 syllabus: 'https://cse.iitj.ac.in/images/pdf/curriculum/CSE-Courses-Details.pdf#page=56',
-                semesterAvailability: ['odd','even'], 
+                semesterAvailability: ['odd', 'even'],
+                professors: [
+                    
+                ],
             },
             {
                 name: 'Complexity Theory',
@@ -294,6 +400,9 @@ const courses = {
                 credits: 3,
                 syllabus: 'https://cse.iitj.ac.in/images/pdf/curriculum/CSE-Courses-Details.pdf#page=62',
                 semesterAvailability: ['even'],
+                professors: [
+                    { year: 2023, name: 'Dr. Vimal Raj Sharma' },
+                ],
             },
             {
                 name: 'Advanced Data Structures',
@@ -301,7 +410,10 @@ const courses = {
                 hours: '3-0-0',
                 credits: 3,
                 syllabus: 'https://cse.iitj.ac.in/images/pdf/curriculum/CSE-Courses-Details.pdf#page=29',
-                semesterAvailability: ['odd'], 
+                semesterAvailability: ['odd'],
+                professors: [
+                    
+                ],
             },
             {
                 name: 'Quantum Computing',
@@ -309,7 +421,10 @@ const courses = {
                 hours: '3-0-2',
                 credits: 3,
                 syllabus: 'https://syllabus-link.com/course3',
-                semesterAvailability: ['odd','even'], 
+                semesterAvailability: ['odd', 'even'],
+                professors: [
+                    
+                ],
             },
             {
                 name: 'Graph-theoretic Algorithms',
@@ -317,7 +432,10 @@ const courses = {
                 hours: '3-0-0',
                 credits: 3,
                 syllabus: 'https://cse.iitj.ac.in/images/pdf/curriculum/CSE-Courses-Details.pdf#page=83',
-                semesterAvailability: ['even'], 
+                semesterAvailability: ['even'],
+                professors: [
+                    { year: 2023, name: 'Dr. Pallavi Jain' },
+                ],
             },
             {
                 name: 'Parameterized Complexity',
@@ -325,7 +443,11 @@ const courses = {
                 hours: '3-0-0',
                 credits: 3,
                 syllabus: 'https://cse.iitj.ac.in/images/pdf/curriculum/CSE-Courses-Details.pdf#page=99',
-                semesterAvailability: ['odd'], 
+                semesterAvailability: ['odd'],
+                professors: [
+                    { year: 2023, name: 'Dr. Lawqueen Kanesh' },
+                    { year: 2022, name: 'Dr. Lawqueen Kanesh' },
+                ],
             },
             {
                 name: 'Optimization (Math)',
@@ -334,6 +456,10 @@ const courses = {
                 credits: 3,
                 syllabus: 'https://cse.iitj.ac.in/images/pdf/curriculum/CSE-Courses-Details.pdf#page=27',
                 semesterAvailability: ['odd'],
+                professors: [
+                    { year: 2023, name: 'Md Abu Talhamainuddin Ansary' },
+                    { year: 2022, name: 'Md Abu Talhamainuddin Ansary' },
+                ],
             },
         ],
         hardware: [
@@ -343,7 +469,10 @@ const courses = {
                 hours: '3-0-0',
                 credits: 3,
                 syllabus: 'https://cse.iitj.ac.in/images/pdf/curriculum/CSE-Courses-Details.pdf#page=87',
-                semesterAvailability: ['even','odd'], 
+                semesterAvailability: ['even', 'odd'],
+                professors: [
+                    
+                ],
             },
             {
                 name: 'Embedded Systems (EE)',
@@ -351,7 +480,11 @@ const courses = {
                 hours: '3-0-0',
                 credits: 3,
                 syllabus: 'https://iitj.ac.in/uploaded_docs/UG/EE/2.%20B.Tech%20EE_24092020.pdf#page=36',
-                semesterAvailability: ['even'], 
+                semesterAvailability: ['even'],
+                professors: [
+                    { year: 2023, name: 'Dr. Binod Kumar' },
+                    { year: 2022, name: 'Dr. Binod Kumar' },
+                ],
             },
             {
                 name: 'VLSI Design (EE)',
@@ -359,7 +492,10 @@ const courses = {
                 hours: '3-0-0',
                 credits: 3,
                 syllabus: 'https://iitj.ac.in/uploaded_docs/UG/EE/2.%20B.Tech%20EE_24092020.pdf#page=56',
-                semesterAvailability: ['even'], 
+                semesterAvailability: ['even'],
+                professors: [
+                    { year: 2023, name: 'Dr. Shree Prakash Tiwari' },
+                ],
             },
             {
                 name: 'Hardware Software Co-Design (CS)',
@@ -367,7 +503,10 @@ const courses = {
                 hours: '3-0-0',
                 credits: 3,
                 syllabus: 'https://cse.iitj.ac.in/images/pdf/curriculum/CSE-Courses-Details.pdf#page=85',
-                semesterAvailability: ['even'], 
+                semesterAvailability: ['even'],
+                professors: [
+                    { year: 2023, name: 'Dr. Binod Kumar' },
+                ],
             },
         ],
         systems: [
@@ -378,6 +517,9 @@ const courses = {
                 credits: 3,
                 syllabus: 'https://cse.iitj.ac.in/images/pdf/curriculum/CSE-Courses-Details.pdf#page=109',
                 semesterAvailability: ['odd'],
+                professors: [
+                    { year: 2023, name: 'Dr. Sumit Kalra' },
+                ],
             },
             {
                 name: 'Distributed Database Systems',
@@ -385,7 +527,10 @@ const courses = {
                 hours: '3-0-0',
                 credits: 3,
                 syllabus: 'https://cse.iitj.ac.in/images/pdf/curriculum/CSE-Courses-Details.pdf#page=76',
-                semesterAvailability: ['odd'], 
+                semesterAvailability: ['odd'],
+                professors: [
+                    { year: 2023, name: 'Dr. Romi Banerjee' },
+                ],
             },
             {
                 name: 'Distributed Systems',
@@ -394,6 +539,9 @@ const courses = {
                 credits: 2,
                 syllabus: 'https://cse.iitj.ac.in/images/pdf/curriculum/CSE-Courses-Details.pdf#page=32',
                 semesterAvailability: ['odd'],
+                professors: [
+                    { year: 2023, name: 'Dr. Suchetana Chakraborty' },
+                ],
             },
             {
                 name: 'Mobile and Pervasive Computing',
@@ -401,7 +549,10 @@ const courses = {
                 hours: '3-0-0',
                 credits: 3,
                 syllabus: 'https://cse.iitj.ac.in/images/pdf/curriculum/CSE-Courses-Details.pdf#page=95',
-                semesterAvailability: ['even'], 
+                semesterAvailability: ['even'],
+                professors: [
+                    { year: 2023, name: 'Dr. Suchetana Chakraborty' },
+                ],
             },
             {
                 name: 'Virtualization and Cloud Computing',
@@ -409,7 +560,11 @@ const courses = {
                 hours: '3-0-0',
                 credits: 3,
                 syllabus: 'https://cse.iitj.ac.in/images/pdf/curriculum/CSE-Courses-Details.pdf#page=116',
-                semesterAvailability: ['even'], 
+                semesterAvailability: ['even'],
+                professors: [
+                    { year: 2023, name: 'Dr. Sumit Kalra' },
+                ],
+
             },
             {
                 name: 'Compiler Design',
@@ -417,7 +572,10 @@ const courses = {
                 hours: '3-0-0',
                 credits: 3,
                 syllabus: 'https://cse.iitj.ac.in/images/pdf/curriculum/CSE-Courses-Details.pdf#page=61',
-                semesterAvailability: ['even'], 
+                semesterAvailability: ['even'],
+                professors: [
+                    
+                ],
             },
             {
                 name: 'Software Maintenance',
@@ -425,7 +583,10 @@ const courses = {
                 hours: '2-0-2',
                 credits: 3,
                 syllabus: 'https://cse.iitj.ac.in/images/pdf/curriculum/CSE-Courses-Details.pdf#page=36',
-                semesterAvailability: ['odd','even'], 
+                semesterAvailability: ['odd', 'even'],
+                professors: [
+                    
+                ],
             },
         ],
         network_security: [
@@ -435,7 +596,10 @@ const courses = {
                 hours: '3-0-0',
                 credits: 3,
                 syllabus: 'https://cse.iitj.ac.in/images/pdf/curriculum/CSE-Courses-Details.pdf#page=91',
-                semesterAvailability: ['odd','even'],
+                semesterAvailability: ['odd', 'even'],
+                professors: [
+                    
+                ],
             },
             {
                 name: '5G Mobile Networks',
@@ -443,7 +607,10 @@ const courses = {
                 hours: '3-0-0',
                 credits: 3,
                 syllabus: 'https://cse.iitj.ac.in/images/pdf/curriculum/CSE-Courses-Details.pdf#page=96',
-                semesterAvailability: ['odd','even'], 
+                semesterAvailability: ['odd', 'even'],
+                professors: [
+                    
+                ],
             },
             {
                 name: 'Software Defined Networks',
@@ -451,7 +618,10 @@ const courses = {
                 hours: '2-0-0',
                 credits: 2,
                 syllabus: 'https://cse.iitj.ac.in/images/pdf/curriculum/CSE-Courses-Details.pdf#page=108',
-                semesterAvailability: ['odd','even'],
+                semesterAvailability: ['odd', 'even'],
+                professors: [
+                    
+                ],
             },
             {
                 name: 'Intelligent Radio Networks (EE)',
@@ -459,7 +629,10 @@ const courses = {
                 hours: '3-0-2',
                 credits: 3,
                 syllabus: 'https://iitj.ac.in/uploaded_docs/UG/EE/2.%20B.Tech%20EE_24092020.pdf#page=82',
-                semesterAvailability: ['odd','even'], 
+                semesterAvailability: ['odd', 'even'],
+                professors: [
+                    
+                ],
             },
             {
                 name: 'Data Communication Networks (EE)',
@@ -467,7 +640,11 @@ const courses = {
                 hours: '3-0-0',
                 credits: 3,
                 syllabus: 'https://iitj.ac.in/uploaded_docs/UG/EE/2.%20B.Tech%20EE_24092020.pdf#page=35',
-                semesterAvailability: ['even'], 
+                semesterAvailability: ['even'],
+                professors: [
+                    { year: 2023, name: 'Dr. Arun Kumar Singh, Dr. Aashish Mathur' },
+                    { year: 2023, name: 'Dr. Manoj Choudhary' },
+                ],
             },
             {
                 name: 'Cryptography and Network Security (CS/EE) ',
@@ -475,7 +652,10 @@ const courses = {
                 hours: '3-0-0',
                 credits: 3,
                 syllabus: 'https://iitj.ac.in/uploaded_docs/UG/EE/2.%20B.Tech%20EE_24092020.pdf#page=57',
-                semesterAvailability: ['even'], 
+                semesterAvailability: ['even'],
+                professors: [
+                    { year: 2023, name: 'Dr. Somitra Kumar Sanadhya' },
+                ],
             },
             {
                 name: 'Introduction to Blockchain',
@@ -483,7 +663,11 @@ const courses = {
                 hours: '3-0-0',
                 credits: 3,
                 syllabus: 'https://cse.iitj.ac.in/images/pdf/curriculum/CSE-Courses-Details.pdf#page=90',
-                semesterAvailability: ['odd'], 
+                semesterAvailability: ['odd'],
+                professors: [
+                    { year: 2023, name: 'Dr. Debasis Das' },
+                    { year: 2022, name: 'Dr. Debasis Das' },
+                ],
             },
         ],
         ai_ml: [
@@ -494,6 +678,10 @@ const courses = {
                 credits: 4.5,
                 syllabus: 'https://cse.iitj.ac.in/images/pdf/curriculum/CSE-Courses-Details.pdf#page=25',
                 semesterAvailability: ['even'],
+                professors: [
+                    { year: 2023, name: 'Dr. Mayank Vatsa' },
+                    { year: 2022, name: 'Dr. Mayank Vatsa' },
+                ],
             },
             {
                 name: 'Artificial Intelligence',
@@ -501,7 +689,11 @@ const courses = {
                 hours: '3-0-0',
                 credits: 3,
                 syllabus: 'https://cse.iitj.ac.in/images/pdf/curriculum/CSE-Courses-Details.pdf#page=62',
-                semesterAvailability: ['odd'], 
+                semesterAvailability: ['odd'],
+                professors: [
+                    { year: 2023, name: 'Dr. Manish Aggarwal' },
+                    { year: 2022, name: 'Dr. Manish Aggarwal' },
+                ],
             },
             {
                 name: 'Advanced Machine Learning',
@@ -510,6 +702,10 @@ const courses = {
                 credits: 3,
                 syllabus: 'https://cse.iitj.ac.in/images/pdf/curriculum/CSE-Courses-Details.pdf#page=53',
                 semesterAvailability: ['odd'],
+                professors: [
+                    { year: 2023, name: 'Dr. Mayank Vatsa' },
+                    { year: 2022, name: 'Dr. Mayank Vatsa' },
+                ],
             },
             {
                 name: 'Dependable Artificial Intelligences',
@@ -517,7 +713,10 @@ const courses = {
                 hours: '3-0-0',
                 credits: 3,
                 syllabus: 'https://cse.iitj.ac.in/images/pdf/curriculum/CSE-Courses-Details.pdf#page=26',
-                semesterAvailability: ['even'], 
+                semesterAvailability: ['even'],
+                professors: [
+                    { year: 2023, name: 'Dr. Richa Singh' },
+                ],
             },
             {
                 name: 'Information Retrieval',
@@ -525,7 +724,10 @@ const courses = {
                 hours: '3-0-0',
                 credits: 3,
                 syllabus: 'https://cse.iitj.ac.in/images/pdf/curriculum/CSE-Courses-Details.pdf#page=88',
-                semesterAvailability: ['odd','even'], 
+                semesterAvailability: ['odd', 'even'],
+                professors: [
+                    
+                ],
             },
             {
                 name: 'Autonomous Systems (IDRP) ',
@@ -533,7 +735,10 @@ const courses = {
                 hours: '3-0-0',
                 credits: 3,
                 syllabus: 'https://cse.iitj.ac.in/images/pdf/curriculum/CSE-Courses-Details.pdf#page=58',
-                semesterAvailability: ['even'], 
+                semesterAvailability: ['even'],
+                professors: [
+                    { year: 2023, name: 'Dr. Rajendra Nagar' },
+                ],
             },
             {
                 name: 'Ethics, Policy, Law and Regulation in AI',
@@ -541,7 +746,10 @@ const courses = {
                 hours: '3-0-0',
                 credits: 3,
                 syllabus: 'https://cse.iitj.ac.in/images/pdf/curriculum/CSE-Courses-Details.pdf#page=80',
-                semesterAvailability: ['even'], 
+                semesterAvailability: ['even'],
+                professors: [
+                    { year: 2023, name: 'Dr. Santanu Chaudhury' },
+                ],
             },
             {
                 name: 'Planning and Decision making for Robots (IDRP)',
@@ -549,7 +757,10 @@ const courses = {
                 hours: '3-0-0',
                 credits: 3,
                 syllabus: 'https://syllabus-link.com/course3',
-                semesterAvailability: ['odd','even'], 
+                semesterAvailability: ['odd', 'even'],
+                professors: [
+                    
+                ],
             },
         ],
         speech_text_vision: [
@@ -560,6 +771,9 @@ const courses = {
                 credits: 3,
                 syllabus: 'https://cse.iitj.ac.in/images/pdf/curriculum/CSE-Courses-Details.pdf#page=97',
                 semesterAvailability: ['even'],
+                professors: [
+                    { year: 2023, name: 'Dr. Anand Mishra' },
+                ],
             },
             {
                 name: 'Digital Image Processing',
@@ -567,7 +781,10 @@ const courses = {
                 hours: '3-0-0',
                 credits: 3,
                 syllabus: 'https://cse.iitj.ac.in/images/pdf/BTech_AIDE_24092020.pdf#page=50',
-                semesterAvailability: ['odd','even'], 
+                semesterAvailability: ['odd', 'even'],
+                professors: [
+                    { year: 2022, name: 'Dr. Anil Kumar Tiwari' },
+                ],
             },
             {
                 name: 'Computer Vision',
@@ -576,6 +793,9 @@ const courses = {
                 credits: 3,
                 syllabus: 'https://cse.iitj.ac.in/images/pdf/curriculum/CSE-Courses-Details.pdf#page=68',
                 semesterAvailability: ['even'],
+                professors: [
+                    { year: 2023, name: 'Dr. Anand Mishra' },
+                ],
             },
             {
                 name: 'Computer Graphics',
@@ -583,7 +803,11 @@ const courses = {
                 hours: '3-0-0',
                 credits: 3,
                 syllabus: 'https://cse.iitj.ac.in/images/pdf/curriculum/CSE-Courses-Details.pdf#page=66',
-                semesterAvailability: ['odd'], 
+                semesterAvailability: ['odd'],
+                professors: [
+                    { year: 2023, name: 'Dr. Rajendra Nagar' },
+                    { year: 2022, name: 'Dr. Rajendra Nagar' },
+                ],
             },
             {
                 name: 'Speech Understanding',
@@ -591,7 +815,10 @@ const courses = {
                 hours: '3-0-0',
                 credits: 3,
                 syllabus: 'https://cse.iitj.ac.in/images/pdf/curriculum/CSE-Courses-Details.pdf#page=110',
-                semesterAvailability: ['odd','even'], 
+                semesterAvailability: ['odd', 'even'],
+                professors: [
+                    
+                ],
             },
         ],
         social_computing: [
@@ -601,7 +828,10 @@ const courses = {
                 hours: '3-0-0',
                 credits: 3,
                 syllabus: 'https://cse.iitj.ac.in/images/pdf/curriculum/CSE-Courses-Details.pdf#page=104',
-                semesterAvailability: ['odd','even'], 
+                semesterAvailability: ['odd', 'even'],
+                professors: [
+                    
+                ],
             },
             {
                 name: 'Sustainable Computing',
@@ -609,7 +839,10 @@ const courses = {
                 hours: '3-0-0',
                 credits: 3,
                 syllabus: 'https://cse.iitj.ac.in/images/pdf/curriculum/CSE-Courses-Details.pdf#page=111',
-                semesterAvailability: ['odd','even'], 
+                semesterAvailability: ['odd', 'even'],
+                professors: [
+                    
+                ],
             },
             {
                 name: 'ICT for Development',
@@ -617,7 +850,10 @@ const courses = {
                 hours: '2-0-0',
                 credits: 2,
                 syllabus: 'https://cse.iitj.ac.in/images/pdf/curriculum/CSE-Courses-Details.pdf#page=33',
-                semesterAvailability: ['odd','even'],
+                semesterAvailability: ['odd', 'even'],
+                professors: [
+                    
+                ],
             },
             {
                 name: 'Machine Learning for Epidemiology',
@@ -625,7 +861,10 @@ const courses = {
                 hours: '3-0-0',
                 credits: 3,
                 syllabus: 'https://cse.iitj.ac.in/images/pdf/curriculum/CSE-Courses-Details.pdf#page=92',
-                semesterAvailability: ['odd','even'], 
+                semesterAvailability: ['odd', 'even'],
+                professors: [
+                    
+                ],
             },
             {
                 name: 'Health Informatics',
@@ -633,7 +872,10 @@ const courses = {
                 hours: '3-0-0',
                 credits: 3,
                 syllabus: 'https://cse.iitj.ac.in/images/pdf/curriculum/CSE-Courses-Details.pdf#page=86',
-                semesterAvailability: ['odd','even'], 
+                semesterAvailability: ['odd', 'even'],
+                professors: [
+                    
+                ],
             },
             {
                 name: 'Computational Social Choice',
@@ -641,7 +883,10 @@ const courses = {
                 hours: '3-0-0',
                 credits: 3,
                 syllabus: 'https://cse.iitj.ac.in/images/pdf/curriculum/CSE-Courses-Details.pdf#page=65',
-                semesterAvailability: ['odd','even'],
+                semesterAvailability: ['odd', 'even'],
+                professors: [
+                    
+                ],
             },
             {
                 name: 'Computational Cognition & Behavior Modelling',
@@ -649,7 +894,10 @@ const courses = {
                 hours: '3-0-0',
                 credits: 3,
                 syllabus: 'https://cse.iitj.ac.in/images/pdf/curriculum/CSE-Courses-Details.pdf#page=30',
-                semesterAvailability: ['odd','even'], 
+                semesterAvailability: ['odd', 'even'],
+                professors: [
+                    
+                ],
             },
             {
                 name: 'Social Networks',
@@ -657,7 +905,10 @@ const courses = {
                 hours: '3-0-0',
                 credits: 3,
                 syllabus: 'https://cse.iitj.ac.in/images/pdf/curriculum/CSE-Courses-Details.pdf#page=105',
-                semesterAvailability: ['odd','even'],
+                semesterAvailability: ['odd', 'even'],
+                professors: [
+                    { year: 2022, name: 'Dr. Suman Kundu' },
+                ],
             },
             {
                 name: 'Ethics, policy, law and regulations in AI',
@@ -665,7 +916,10 @@ const courses = {
                 hours: '0-0-2',
                 credits: 1,
                 syllabus: 'https://cse.iitj.ac.in/images/pdf/curriculum/CSE-Courses-Details.pdf#page=80',
-                semesterAvailability: ['even'], 
+                semesterAvailability: ['even'],
+                professors: [
+                    { year: 2023, name: 'Dr. Santanu Chaudhury' },
+                ],
             },
             {
                 name: 'Crowd-sourcing and human computing',
@@ -673,7 +927,10 @@ const courses = {
                 hours: '3-0-0',
                 credits: 3,
                 syllabus: 'https://cse.iitj.ac.in/images/pdf/curriculum/CSE-Courses-Details.pdf#page=69',
-                semesterAvailability: ['odd','even'], 
+                semesterAvailability: ['odd', 'even'],
+                professors: [
+                    
+                ],
             },
             {
                 name: 'Environmental Informatics',
@@ -681,7 +938,10 @@ const courses = {
                 hours: '3-0-0',
                 credits: 3,
                 syllabus: 'https://cse.iitj.ac.in/images/pdf/curriculum/CSE-Courses-Details.pdf#page=79',
-                semesterAvailability: ['odd','even'], 
+                semesterAvailability: ['odd', 'even'],
+                professors: [
+                    
+                ],
             },
             {
                 name: 'Computational Microeconomics',
@@ -689,7 +949,10 @@ const courses = {
                 hours: '3-0-0',
                 credits: 3,
                 syllabus: 'https://cse.iitj.ac.in/images/pdf/curriculum/CSE-Courses-Details.pdf#page=63',
-                semesterAvailability: ['odd'], 
+                semesterAvailability: ['odd'],
+                professors: [
+                    
+                ],
             },
         ],
     },
@@ -702,7 +965,10 @@ const courses = {
                 hours: '3-0-0',
                 credits: 3,
                 syllabus: 'https://iitj.ac.in/uploaded_docs/UG/ME/1%20B.Tech%20ME%20Curriculum%20structure.pdf#page=74',
-                semesterAvailability: ['odd','even'], 
+                semesterAvailability: ['odd', 'even'],
+                professors: [
+                    { year: 2022, name: 'Dr. Amrita Puri' },
+                ],
             },
             {
                 name: 'Mechanical Vibrations',
@@ -710,7 +976,10 @@ const courses = {
                 hours: '3-0-0',
                 credits: 3,
                 syllabus: 'https://iitj.ac.in/uploaded_docs/UG/ME/1%20B.Tech%20ME%20Curriculum%20structure.pdf#page=79',
-                semesterAvailability: ['even'], 
+                semesterAvailability: ['even'],
+                professors: [
+                    { year: 2023, name: 'Dr. Barun Pratiher' },
+                ],
             },
             {
                 name: 'Computer aided Design',
@@ -718,7 +987,10 @@ const courses = {
                 hours: '3-0-2',
                 credits: 4,
                 syllabus: 'https://iitj.ac.in/uploaded_docs/UG/ME/1%20B.Tech%20ME%20Curriculum%20structure.pdf#page=76',
-                semesterAvailability: ['odd','even'], 
+                semesterAvailability: ['odd', 'even'],
+                professors: [
+                
+                ],
             },
             {
                 name: 'Mechatronics',
@@ -726,7 +998,10 @@ const courses = {
                 hours: '2-0-2',
                 credits: 3,
                 syllabus: 'https://iitj.ac.in/uploaded_docs/UG/ME/1%20B.Tech%20ME%20Curriculum%20structure.pdf#page=81',
-                semesterAvailability: ['odd','even'], 
+                semesterAvailability: ['odd', 'even'],
+                professors: [
+                
+                ],
             },
             {
                 name: 'Principles of Biomechanics',
@@ -734,7 +1009,10 @@ const courses = {
                 hours: '3-0-0',
                 credits: 3,
                 syllabus: 'https://iitj.ac.in/uploaded_docs/dept_upload/bio/curriculum_document-2020-10-03-22-20-pm.pdf',
-                semesterAvailability: ['odd','even'], 
+                semesterAvailability: ['odd', 'even'],
+                professors: [
+                
+                ],
             },
             {
                 name: 'Finite Element Methods and Applications',
@@ -742,7 +1020,10 @@ const courses = {
                 hours: '3-0-0',
                 credits: 3,
                 syllabus: 'https://iitj.ac.in/uploaded_docs/UG/ME/1%20B.Tech%20ME%20Curriculum%20structure.pdf#page=82',
-                semesterAvailability: ['odd','even'], 
+                semesterAvailability: ['odd', 'even'],
+                professors: [
+                
+                ],
             },
             {
                 name: 'Introduction to Robotics',
@@ -750,7 +1031,11 @@ const courses = {
                 hours: '3-0-0',
                 credits: 3,
                 syllabus: 'https://shorturl.at/lBJS0',
-                semesterAvailability: ['even'], 
+                semesterAvailability: ['even'],
+                professors: [
+                    { year: 2023, name: 'Dr. Suril Vijaykumar Shah' },
+                ],
+
             },
             {
                 name: 'Embedded Systems',
@@ -758,7 +1043,11 @@ const courses = {
                 hours: '3-0-2',
                 credits: 4,
                 syllabus: 'https://iitj.ac.in/uploaded_docs/UG/EE/2.%20B.Tech%20EE_24092020.pdf#page=36',
-                semesterAvailability: ['even'], 
+                semesterAvailability: ['even'],
+                professors: [
+                    { year: 2023, name: 'Dr. Arpit Arvind Khandelwal' },
+                    { year: 2022, name: 'Dr. Malyala Pavana Ravi Sai Kiran' },
+                ],
             },
 
         ],
@@ -769,7 +1058,10 @@ const courses = {
                 hours: '3-0-0',
                 credits: 3,
                 syllabus: 'https://iitj.ac.in/uploaded_docs/UG/ME/1%20B.Tech%20ME%20Curriculum%20structure.pdf#page=60',
-                semesterAvailability: ['odd','even'], 
+                semesterAvailability: ['odd', 'even'],
+                professors: [
+                
+                ],
             },
             {
                 name: 'Applied Ergonomics',
@@ -777,7 +1069,10 @@ const courses = {
                 hours: '3-0-0',
                 credits: 3,
                 syllabus: 'https://iitj.ac.in/uploaded_docs/UG/ME/1%20B.Tech%20ME%20Curriculum%20structure.pdf#page=61',
-                semesterAvailability: ['odd','even'], 
+                semesterAvailability: ['odd', 'even'],
+                professors: [
+                
+                ],
             },
             {
                 name: 'Micro-Nano Manufacturing',
@@ -785,7 +1080,10 @@ const courses = {
                 hours: '3-0-0',
                 credits: 3,
                 syllabus: 'https://iitj.ac.in/uploaded_docs/UG/ME/1%20B.Tech%20ME%20Curriculum%20structure.pdf#page=62',
-                semesterAvailability: ['even'], 
+                semesterAvailability: ['even'],
+                professors: [
+                    { year: 2022, name: 'Dr. Ankur Gupta' },
+                ],
             },
             {
                 name: 'Design and Manufacturing of Bio Materials',
@@ -793,7 +1091,10 @@ const courses = {
                 hours: '3-0-0',
                 credits: 3,
                 syllabus: 'https://iitj.ac.in/uploaded_docs/UG/ME/1%20B.Tech%20ME%20Curriculum%20structure.pdf',
-                semesterAvailability: ['odd','even'], 
+                semesterAvailability: ['odd', 'even'],
+                professors: [
+                
+                ],
             },
             {
                 name: 'Computer Integrated Manufacturing',
@@ -801,7 +1102,10 @@ const courses = {
                 hours: '3-0-0',
                 credits: 3,
                 syllabus: 'https://iitj.ac.in/uploaded_docs/UG/ME/1%20B.Tech%20ME%20Curriculum%20structure.pdf#page=64',
-                semesterAvailability: ['odd','even'], 
+                semesterAvailability: ['odd', 'even'],
+                professors: [
+                
+                ],
             },
             {
                 name: 'Design for Manufacturing',
@@ -809,7 +1113,10 @@ const courses = {
                 hours: '3-0-0',
                 credits: 3,
                 syllabus: 'https://iitj.ac.in/uploaded_docs/UG/ME/1%20B.Tech%20ME%20Curriculum%20structure.pdf#page=65',
-                semesterAvailability: ['odd','even'], 
+                semesterAvailability: ['odd', 'even'],
+                professors: [
+                
+                ],
             },
         ],
         thermofluids: [
@@ -819,7 +1126,10 @@ const courses = {
                 hours: '3-0-0',
                 credits: 3,
                 syllabus: 'https://iitj.ac.in/uploaded_docs/UG/ME/1%20B.Tech%20ME%20Curriculum%20structure.pdf#page=49',
-                semesterAvailability: ['even'],
+                semesterAvailability: ['odd'],
+                professors: [
+                    { year: 2022, name: 'Dr. Arun Kumar R' },
+                ],
             },
             {
                 name: 'Refrigeration and Airconditioning',
@@ -827,7 +1137,10 @@ const courses = {
                 hours: '3-0-0',
                 credits: 3,
                 syllabus: 'https://iitj.ac.in/uploaded_docs/UG/ME/1%20B.Tech%20ME%20Curriculum%20structure.pdf',
-                semesterAvailability: ['odd','even'],
+                semesterAvailability: ['odd', 'even'],
+                professors: [
+                
+                ],
             },
             {
                 name: 'Power Plant Engineering',
@@ -835,7 +1148,10 @@ const courses = {
                 hours: '3-0-0',
                 credits: 3,
                 syllabus: 'https://iitj.ac.in/uploaded_docs/UG/ME/1%20B.Tech%20ME%20Curriculum%20structure.pdf#page=51',
-                semesterAvailability: ['odd','even'],
+                semesterAvailability: ['odd', 'even'],
+                professors: [
+                
+                ],
             },
             {
                 name: 'Porous media flows and applications',
@@ -843,7 +1159,10 @@ const courses = {
                 hours: '3-0-0',
                 credits: 3,
                 syllabus: 'https://iitj.ac.in/uploaded_docs/UG/ME/1%20B.Tech%20ME%20Curriculum%20structure.pdf#page=56',
-                semesterAvailability: ['odd','even'],
+                semesterAvailability: ['odd', 'even'],
+                professors: [
+                
+                ],
             },
             {
                 name: 'Solar Thermal Systems',
@@ -851,7 +1170,10 @@ const courses = {
                 hours: '3-0-0',
                 credits: 3,
                 syllabus: 'https://iitj.ac.in/uploaded_docs/UG/ME/1%20B.Tech%20ME%20Curriculum%20structure.pdf#page=53',
-                semesterAvailability: ['odd','even'],
+                semesterAvailability: ['odd', 'even'],
+                professors: [
+                
+                ],
             },
             {
                 name: 'Computational Fluid Dynamics and Heat Transfer',
@@ -860,6 +1182,9 @@ const courses = {
                 credits: 4,
                 syllabus: 'https://iitj.ac.in/uploaded_docs/UG/ME/1%20B.Tech%20ME%20Curriculum%20structure.pdf',
                 semesterAvailability: ['even'],
+                professors: [
+                    { year: 2023, name: 'Dr. Sudipto Mukhopadhyay' },
+                ],
             },
         ],
     },
@@ -872,7 +1197,10 @@ const courses = {
                 hours: '3-0-0',
                 credits: 3,
                 syllabus: 'https://iitj.ac.in/uploaded_docs/dept_upload/cml/UG_Curriculum_document-2020-11-11-17-01-pm.pdf#page=39',
-                semesterAvailability: ['odd','even'],
+                semesterAvailability: ['odd', 'even'],
+                professors: [
+                
+                ],
             },
             {
                 name: 'Product Design in Chemical Engineering',
@@ -880,7 +1208,10 @@ const courses = {
                 hours: '2-0-0',
                 credits: 2,
                 syllabus: 'https://iitj.ac.in/uploaded_docs/dept_upload/cml/UG_Curriculum_document-2020-11-11-17-01-pm.pdf#page=40',
-                semesterAvailability: ['odd','even'],
+                semesterAvailability: ['odd', 'even'],
+                professors: [
+                
+                ],
             },
             {
                 name: 'Unit Operations',
@@ -888,7 +1219,10 @@ const courses = {
                 hours: '3-0-0',
                 credits: 3,
                 syllabus: 'https://iitj.ac.in/uploaded_docs/dept_upload/cml/UG_Curriculum_document-2020-11-11-17-01-pm.pdf#page=41',
-                semesterAvailability: ['odd','even'],
+                semesterAvailability: ['odd', 'even'],
+                professors: [
+                
+                ],
             },
             {
                 name: 'Membrane Technology',
@@ -896,7 +1230,10 @@ const courses = {
                 hours: '3-0-0',
                 credits: 3,
                 syllabus: 'https://iitj.ac.in/uploaded_docs/dept_upload/cml/UG_Curriculum_document-2020-11-11-17-01-pm.pdf#page=42',
-                semesterAvailability: ['odd','even'],
+                semesterAvailability: ['odd', 'even'],
+                professors: [
+                
+                ],
             },
         ],
         process_eng_int: [
@@ -906,7 +1243,10 @@ const courses = {
                 hours: '3-0-0',
                 credits: 3,
                 syllabus: 'https://iitj.ac.in/uploaded_docs/dept_upload/cml/UG_Curriculum_document-2020-11-11-17-01-pm.pdf#page=43',
-                semesterAvailability: ['odd','even'], 
+                semesterAvailability: ['odd', 'even'],
+                professors: [
+                
+                ],
             },
             {
                 name: 'Petrochemical Engineering',
@@ -914,7 +1254,10 @@ const courses = {
                 hours: '3-0-0',
                 credits: 3,
                 syllabus: 'https://iitj.ac.in/uploaded_docs/dept_upload/cml/UG_Curriculum_document-2020-11-11-17-01-pm.pdf#page=45',
-                semesterAvailability: ['odd'], 
+                semesterAvailability: ['odd'],
+                professors: [
+                    { year: 2023, name: 'Dr. Gangawane Krunal Madhukar' },
+                ],
             },
             {
                 name: 'Petroleum Refinery Process Modelling',
@@ -922,7 +1265,10 @@ const courses = {
                 hours: '1-0-2',
                 credits: 2,
                 syllabus: 'https://iitj.ac.in/uploaded_docs/dept_upload/cml/UG_Curriculum_document-2020-11-11-17-01-pm.pdf#page=46',
-                semesterAvailability: ['odd','even'], 
+                semesterAvailability: ['odd', 'even'],
+                professors: [
+                
+                ],
             },
             {
                 name: 'Basics of Reliability and Maintainability Engineering for System Safety',
@@ -930,7 +1276,10 @@ const courses = {
                 hours: '3-1-0',
                 credits: 4,
                 syllabus: 'https://iitj.ac.in/uploaded_docs/dept_upload/cml/UG_Curriculum_document-2020-11-11-17-01-pm.pdf#page=47',
-                semesterAvailability: ['odd','even'], 
+                semesterAvailability: ['odd', 'even'],
+                professors: [
+                
+                ],
             },
         ],
         cfie: [
@@ -941,6 +1290,9 @@ const courses = {
                 credits: 3,
                 syllabus: 'https://iitj.ac.in/uploaded_docs/dept_upload/cml/UG_Curriculum_document-2020-11-11-17-01-pm.pdf#page=48',
                 semesterAvailability: ['even'],
+                professors: [
+                    { year: 2023, name: 'Dr. Nirmalya Bachhar' },
+                ],
             },
             {
                 name: 'Interfacial Engineering in Soft Matter',
@@ -948,7 +1300,10 @@ const courses = {
                 hours: '3-0-0',
                 credits: 3,
                 syllabus: 'https://iitj.ac.in/uploaded_docs/dept_upload/cml/UG_Curriculum_document-2020-11-11-17-01-pm.pdf#page=49',
-                semesterAvailability: ['odd','even'],
+                semesterAvailability: ['odd', 'even'],
+                professors: [
+                
+                ],
             },
             {
                 name: 'Bioprinting',
@@ -956,7 +1311,10 @@ const courses = {
                 hours: '3-0-0',
                 credits: 3,
                 syllabus: 'https://iitj.ac.in/uploaded_docs/dept_upload/cml/UG_Curriculum_document-2020-11-11-17-01-pm.pdf#page=50',
-                semesterAvailability: ['odd','even'],
+                semesterAvailability: ['odd', 'even'],
+                professors: [
+                
+                ],
             },
             {
                 name: '3-D Printing: Material Processing and Properties',
@@ -964,7 +1322,10 @@ const courses = {
                 hours: '3-0-0',
                 credits: 3,
                 syllabus: 'https://iitj.ac.in/uploaded_docs/dept_upload/cml/UG_Curriculum_document-2020-11-11-17-01-pm.pdf#page=51',
-                semesterAvailability: ['odd','even'],
+                semesterAvailability: ['odd', 'even'],
+                professors: [
+                
+                ],
             },
             {
                 name: 'Introductory Principles in Polymer Engineering',
@@ -973,6 +1334,9 @@ const courses = {
                 credits: 3,
                 syllabus: 'https://iitj.ac.in/uploaded_docs/dept_upload/cml/UG_Curriculum_document-2020-11-11-17-01-pm.pdf#page=53',
                 semesterAvailability: ['odd'],
+                professors: [
+                    { year: 2023, name: 'Dr. Deepak Arora' },
+                ],
             },
         ],
         sust: [
@@ -982,7 +1346,11 @@ const courses = {
                 hours: '3-0-0',
                 credits: 3,
                 syllabus: 'https://iitj.ac.in/uploaded_docs/dept_upload/cml/UG_Curriculum_document-2020-11-11-17-01-pm.pdf#page=54',
-                semesterAvailability: ['even'], 
+                semesterAvailability: ['even'],
+                professors: [
+                    { year: 2023, name: 'Dr. Sumit Kamal' },
+                    { year: 2022, name: 'Dr. Anand Krishnan Plappally' },
+                ],
             },
             {
                 name: 'Air Pollution Control technology',
@@ -990,7 +1358,10 @@ const courses = {
                 hours: '3-0-0',
                 credits: 3,
                 syllabus: 'https://iitj.ac.in/uploaded_docs/dept_upload/cml/UG_Curriculum_document-2020-11-11-17-01-pm.pdf#page=55',
-                semesterAvailability: ['odd','even'], 
+                semesterAvailability: ['odd', 'even'],
+                professors: [
+                
+                ],
             },
             {
                 name: 'Processing of Rare-earth and Radioactive Materials',
@@ -998,7 +1369,10 @@ const courses = {
                 hours: '3-0-0',
                 credits: 3,
                 syllabus: 'https://iitj.ac.in/uploaded_docs/dept_upload/cml/UG_Curriculum_document-2020-11-11-17-01-pm.pdf#page=56',
-                semesterAvailability: ['odd','even'], 
+                semesterAvailability: ['odd', 'even'],
+                professors: [
+                
+                ],
             },
             {
                 name: 'Energy Resources',
@@ -1006,7 +1380,10 @@ const courses = {
                 hours: '3-0-0',
                 credits: 3,
                 syllabus: 'https://iitj.ac.in/uploaded_docs/dept_upload/cml/UG_Curriculum_document-2020-11-11-17-01-pm.pdf#page=57',
-                semesterAvailability: ['odd','even'], 
+                semesterAvailability: ['odd', 'even'],
+                professors: [
+                
+                ],
             },
             {
                 name: 'Waste Water Treatment',
@@ -1014,7 +1391,10 @@ const courses = {
                 hours: '3-0-0',
                 credits: 3,
                 syllabus: 'https://iitj.ac.in/uploaded_docs/dept_upload/cml/UG_Curriculum_document-2020-11-11-17-01-pm.pdf#page=58',
-                semesterAvailability: ['odd','even'], 
+                semesterAvailability: ['odd', 'even'],
+                professors: [
+                
+                ],
             },
         ],
         molec_eng: [
@@ -1024,7 +1404,10 @@ const courses = {
                 hours: '2-0-0',
                 credits: 2,
                 syllabus: 'https://iitj.ac.in/uploaded_docs/dept_upload/cml/UG_Curriculum_document-2020-11-11-17-01-pm.pdf#page=59',
-                semesterAvailability: ['odd','even'], 
+                semesterAvailability: ['odd', 'even'],
+                professors: [
+                
+                ],
             },
             {
                 name: 'Fluid-Like Structures and SelfAssembling Systems',
@@ -1032,7 +1415,10 @@ const courses = {
                 hours: '2-0-0',
                 credits: 2,
                 syllabus: 'https://iitj.ac.in/uploaded_docs/dept_upload/cml/UG_Curriculum_document-2020-11-11-17-01-pm.pdf#page=60',
-                semesterAvailability: ['odd','even'], 
+                semesterAvailability: ['odd', 'even'],
+                professors: [
+                
+                ],
             },
             {
                 name: 'Organic Molecules, Complexes and Polymers for Electronics and Optoelectronics',
@@ -1040,7 +1426,10 @@ const courses = {
                 hours: '3-0-0',
                 credits: 3,
                 syllabus: 'https://iitj.ac.in/uploaded_docs/dept_upload/cml/UG_Curriculum_document-2020-11-11-17-01-pm.pdf#page=61',
-                semesterAvailability: ['odd','even'], 
+                semesterAvailability: ['odd', 'even'],
+                professors: [
+                
+                ],
             },
             {
                 name: 'Molecular Thermodynamics',
@@ -1048,7 +1437,11 @@ const courses = {
                 hours: '3-0-0',
                 credits: 3,
                 syllabus: 'https://iitj.ac.in/uploaded_docs/dept_upload/cml/UG_Curriculum_document-2020-11-11-17-01-pm.pdf#page=62',
-                semesterAvailability: ['odd'], 
+                semesterAvailability: ['odd'],
+                professors: [
+                    
+                    { year: 2023, name: 'Dr. Praveenkumar Sappidi' },
+                ],
             },
         ],
         biochem_eng: [
@@ -1058,7 +1451,10 @@ const courses = {
                 hours: '3-0-0',
                 credits: 3,
                 syllabus: 'https://iitj.ac.in/uploaded_docs/dept_upload/cml/UG_Curriculum_document-2020-11-11-17-01-pm.pdf#page=63',
-                semesterAvailability: ['odd'], 
+                semesterAvailability: ['odd'],
+                professors: [
+                    { year: 2023, name: 'Dr. Prasenjit Sarkar' },
+                ],
             },
             {
                 name: 'Bioprocess Technology',
@@ -1066,7 +1462,10 @@ const courses = {
                 hours: '3-0-0',
                 credits: 3,
                 syllabus: 'https://iitj.ac.in/uploaded_docs/dept_upload/cml/UG_Curriculum_document-2020-11-11-17-01-pm.pdf#page=64',
-                semesterAvailability: ['odd','even'], 
+                semesterAvailability: ['odd', 'even'],
+                professors: [
+                
+                ],
             },
             {
                 name: 'Bio-Transport Phenomena',
@@ -1074,7 +1473,10 @@ const courses = {
                 hours: '2-0-0',
                 credits: 2,
                 syllabus: 'https://iitj.ac.in/uploaded_docs/dept_upload/cml/UG_Curriculum_document-2020-11-11-17-01-pm.pdf#page=65',
-                semesterAvailability: ['odd','even'], 
+                semesterAvailability: ['odd', 'even'],
+                professors: [
+                
+                ],
             },
             {
                 name: 'Biochemical Separation Processes',
@@ -1082,7 +1484,10 @@ const courses = {
                 hours: '2-0-0',
                 credits: 2,
                 syllabus: 'https://iitj.ac.in/uploaded_docs/dept_upload/cml/UG_Curriculum_document-2020-11-11-17-01-pm.pdf#page=66',
-                semesterAvailability: ['odd','even'], 
+                semesterAvailability: ['odd', 'even'],
+                professors: [
+                
+                ],
             },
             {
                 name: 'Bioreactors',
@@ -1090,7 +1495,10 @@ const courses = {
                 hours: '3-0-0',
                 credits: 3,
                 syllabus: 'https://iitj.ac.in/uploaded_docs/dept_upload/cml/UG_Curriculum_document-2020-11-11-17-01-pm.pdf#page=67',
-                semesterAvailability: ['odd','even'], 
+                semesterAvailability: ['odd', 'even'],
+                professors: [
+                
+                ],
             },
         ],
     },
@@ -1103,7 +1511,10 @@ const courses = {
                 hours: '3-0-0',
                 credits: 3,
                 syllabus: 'https://iitj.ac.in/uploaded_docs/dept_upload/mat/B.Tech.%20Curriculum_document-2020-10-07-12-26-pm.pdf#page=35',
-                semesterAvailability: ['odd','even'], 
+                semesterAvailability: ['odd', 'even'],
+                professors: [
+                
+                ],
             },
             {
                 name: 'Degradation and Failure of Materials',
@@ -1111,7 +1522,10 @@ const courses = {
                 hours: '3-0-0',
                 credits: 3,
                 syllabus: 'https://iitj.ac.in/uploaded_docs/dept_upload/mat/B.Tech.%20Curriculum_document-2020-10-07-12-26-pm.pdf#page=36',
-                semesterAvailability: ['odd','even'], 
+                semesterAvailability: ['odd', 'even'],
+                professors: [
+                
+                ],
             },
             {
                 name: 'Composites',
@@ -1119,7 +1533,10 @@ const courses = {
                 hours: '3-0-0',
                 credits: 3,
                 syllabus: 'https://iitj.ac.in/uploaded_docs/dept_upload/mat/B.Tech.%20Curriculum_document-2020-10-07-12-26-pm.pdf#page=37',
-                semesterAvailability: ['odd','even'], 
+                semesterAvailability: ['odd', 'even'],
+                professors: [
+                
+                ],
             },
             {
                 name: 'Polymeric Materials and Processing',
@@ -1127,7 +1544,10 @@ const courses = {
                 hours: '3-0-0',
                 credits: 3,
                 syllabus: 'https://iitj.ac.in/uploaded_docs/dept_upload/mat/B.Tech.%20Curriculum_document-2020-10-07-12-26-pm.pdf#page=38',
-                semesterAvailability: ['odd','even'], 
+                semesterAvailability: ['odd', 'even'],
+                professors: [
+                
+                ],
             },
             {
                 name: 'Ceramics and Glass',
@@ -1135,7 +1555,10 @@ const courses = {
                 hours: '3-0-2',
                 credits: 4,
                 syllabus: 'https://iitj.ac.in/uploaded_docs/dept_upload/mat/B.Tech.%20Curriculum_document-2020-10-07-12-26-pm.pdf#page=39',
-                semesterAvailability: ['odd','even'], 
+                semesterAvailability: ['odd', 'even'],
+                professors: [
+                
+                ],
             },
             {
                 name: 'Casting and Solidification',
@@ -1143,7 +1566,10 @@ const courses = {
                 hours: '3-0-0',
                 credits: 3,
                 syllabus: 'https://iitj.ac.in/uploaded_docs/dept_upload/mat/B.Tech.%20Curriculum_document-2020-10-07-12-26-pm.pdf#page=41',
-                semesterAvailability: ['odd','even'], 
+                semesterAvailability: ['odd', 'even'],
+                professors: [
+                
+                ],
             },
             {
                 name: 'Metallurgy of Joining',
@@ -1151,7 +1577,11 @@ const courses = {
                 hours: '3-0-0',
                 credits: 3,
                 syllabus: 'https://iitj.ac.in/uploaded_docs/dept_upload/mat/B.Tech.%20Curriculum_document-2020-10-07-12-26-pm.pdf#page=42',
-                semesterAvailability: ['even'], 
+                semesterAvailability: ['even'],
+                professors: [
+                    { year: 2023, name: 'Dr. Saurabh Sanjay Nene' },
+                    
+                ],
             },
             {
                 name: 'High Temperature Materials',
@@ -1159,7 +1589,11 @@ const courses = {
                 hours: '3-0-0',
                 credits: 3,
                 syllabus: 'https://iitj.ac.in/uploaded_docs/dept_upload/mat/B.Tech.%20Curriculum_document-2020-10-07-12-26-pm.pdf',
-                semesterAvailability: ['even'], 
+                semesterAvailability: ['even'],
+                professors: [
+                    { year: 2023, name: 'Dr. Abir Bhattacharyya' },
+                    
+                ],
             },
             {
                 name: 'Digital Fabrication',
@@ -1167,7 +1601,12 @@ const courses = {
                 hours: '3-0-0',
                 credits: 3,
                 syllabus: 'https://iitj.ac.in/uploaded_docs/UG/ME/1%20B.Tech%20ME%20Curriculum%20structure.pdf#page=44',
-                semesterAvailability: ['odd'], 
+                semesterAvailability: ['odd'],
+                professors: [
+                    { year: 2023, name: 'Dr. Ankur Gupta' },
+                    { year: 2022, name: 'Dr. Kaushalkumar Ashokbhai Desai' },
+                    
+                ],
             },
             {
                 name: 'Smart Manufacturing',
@@ -1175,7 +1614,10 @@ const courses = {
                 hours: '2-0-2',
                 credits: 3,
                 syllabus: 'https://iitj.ac.in/uploaded_docs/UG/ME/1%20B.Tech%20ME%20Curriculum%20structure.pdf#page=47',
-                semesterAvailability: ['odd','even'], 
+                semesterAvailability: ['odd', 'even'],
+                professors: [
+                    { year: 2023, name: 'Dr. Kaushalkumar Ashokbhai Desai' },
+                ],
             },
             {
                 name: 'Additive Manufacturing',
@@ -1183,7 +1625,10 @@ const courses = {
                 hours: '3-0-0',
                 credits: 3,
                 syllabus: 'https://iitj.ac.in/uploaded_docs/dept_upload/mat/B.Tech.%20Curriculum_document-2020-10-07-12-26-pm.pdf',
-                semesterAvailability: ['odd','even'], 
+                semesterAvailability: ['odd', 'even'],
+                professors: [
+                
+                ],
             },
             {
                 name: 'Computer Aided Design',
@@ -1191,7 +1636,10 @@ const courses = {
                 hours: '3-0-2',
                 credits: 4,
                 syllabus: 'https://iitj.ac.in/uploaded_docs/UG/ME/1%20B.Tech%20ME%20Curriculum%20structure.pdf#page=76',
-                semesterAvailability: ['odd','even'], 
+                semesterAvailability: ['odd', 'even'],
+                professors: [
+                
+                ],
             },
             {
                 name: 'Design of Machine Elements',
@@ -1199,7 +1647,10 @@ const courses = {
                 hours: '3-0-2',
                 credits: 4,
                 syllabus: 'https://iitj.ac.in/uploaded_docs/UG/ME/1%20B.Tech%20ME%20Curriculum%20structure.pdf#page=35',
-                semesterAvailability: ['odd','even'], 
+                semesterAvailability: ['odd', 'even'],
+                professors: [
+                    { year: 2023, name: 'Dr. Barun Pratiher' },
+                ],
             },
         ],
         func_mat: [
@@ -1209,7 +1660,10 @@ const courses = {
                 hours: '3-0-0',
                 credits: 3,
                 syllabus: 'https://iitj.ac.in/uploaded_docs/dept_upload/mat/B.Tech.%20Curriculum_document-2020-10-07-12-26-pm.pdf#page=43',
-                semesterAvailability: ['odd','even'], 
+                semesterAvailability: ['odd', 'even'],
+                professors: [
+                
+                ],
             },
             {
                 name: '3D Printing: Material Processing and Properties',
@@ -1217,7 +1671,10 @@ const courses = {
                 hours: '3-0-0',
                 credits: 3,
                 syllabus: 'https://iitj.ac.in/uploaded_docs/dept_upload/mat/B.Tech.%20Curriculum_document-2020-10-07-12-26-pm.pdf#page=45',
-                semesterAvailability: ['odd','even'], 
+                semesterAvailability: ['odd', 'even'],
+                professors: [
+                
+                ],
             },
             {
                 name: 'Lithium ion Batteries',
@@ -1225,7 +1682,10 @@ const courses = {
                 hours: '2-0-2',
                 credits: 3,
                 syllabus: 'https://iitj.ac.in/uploaded_docs/dept_upload/mat/B.Tech.%20Curriculum_document-2020-10-07-12-26-pm.pdf#page=47',
-                semesterAvailability: ['odd','even'], 
+                semesterAvailability: ['odd', 'even'],
+                professors: [
+                
+                ],
             },
             {
                 name: 'Surface Engineering',
@@ -1233,7 +1693,10 @@ const courses = {
                 hours: '3-0-0',
                 credits: 3,
                 syllabus: 'https://iitj.ac.in/uploaded_docs/dept_upload/mat/B.Tech.%20Curriculum_document-2020-10-07-12-26-pm.pdf#page=49',
-                semesterAvailability: ['odd','even'], 
+                semesterAvailability: ['odd', 'even'],
+                professors: [
+                
+                ],
             },
             {
                 name: 'Synthesis and Processing of Semiconductors and 2D materials',
@@ -1241,7 +1704,10 @@ const courses = {
                 hours: '3-0-0',
                 credits: 3,
                 syllabus: 'https://iitj.ac.in/uploaded_docs/dept_upload/mat/B.Tech.%20Curriculum_document-2020-10-07-12-26-pm.pdf#page=50',
-                semesterAvailability: ['odd','even'], 
+                semesterAvailability: ['odd', 'even'],
+                professors: [
+                
+                ],
             },
             {
                 name: 'Functional Ceramics',
@@ -1249,7 +1715,10 @@ const courses = {
                 hours: '3-0-0',
                 credits: 3,
                 syllabus: 'https://iitj.ac.in/uploaded_docs/dept_upload/mat/B.Tech.%20Curriculum_document-2020-10-07-12-26-pm.pdf#page=53',
-                semesterAvailability: ['odd','even'], 
+                semesterAvailability: ['odd', 'even'],
+                professors: [
+                
+                ],
             },
             {
                 name: 'Magnetism and Magnetic Materials',
@@ -1257,7 +1726,10 @@ const courses = {
                 hours: '3-0-0',
                 credits: 3,
                 syllabus: 'https://iitj.ac.in/uploaded_docs/dept_upload/mat/B.Tech.%20Curriculum_document-2020-10-07-12-26-pm.pdf#page=55',
-                semesterAvailability: ['even'], 
+                semesterAvailability: ['even'],
+                professors: [
+                    { year: 2023, name: 'Dr. Devendra Singh Negi' },
+                ],
             },
             {
                 name: 'Nanoscience',
@@ -1265,7 +1737,12 @@ const courses = {
                 hours: '3-0-0',
                 credits: 3,
                 syllabus: 'https://iitj.ac.in/uploaded_docs/dept_upload/mat/B.Tech.%20Curriculum_document-2020-10-07-12-26-pm.pdf',
-                semesterAvailability: ['odd'], 
+                semesterAvailability: ['odd'],
+                professors: [
+                    { year: 2023, name: 'Dr. Rakesh Kumar Sharma' },
+                    { year: 2022, name: 'Dr. Rakesh Kumar Sharma' },
+                    
+                ],
             },
             {
                 name: 'Biomaterials Engineering',
@@ -1273,7 +1750,11 @@ const courses = {
                 hours: '3-0-0',
                 credits: 3,
                 syllabus: 'https://iitj.ac.in/uploaded_docs/dept_upload/mat/B.Tech.%20Curriculum_document-2020-10-07-12-26-pm.pdf#page=52',
-                semesterAvailability: ['odd'], 
+                semesterAvailability: ['odd'],
+                professors: [
+                    { year: 2023, name: 'Dr. Surajit Ghosh' },
+                    { year: 2022, name: 'Dr. Surajit Ghosh' },
+                ],
             },
             {
                 name: 'Cell-Material Interaction',
@@ -1281,7 +1762,11 @@ const courses = {
                 hours: '3-0-0',
                 credits: 3,
                 syllabus: 'https://iitj.ac.in/uploaded_docs/dept_upload/bio/curriculum_document-2020-10-03-22-20-pm.pdf#page=36',
-                semesterAvailability: ['even'], 
+                semesterAvailability: ['even'],
+                professors: [
+                    { year: 2023, name: 'Dr. Raviraj Vankayal' },
+                    
+                ],
             },
             {
                 name: 'Tissue Engineering (BSBE)',
@@ -1289,7 +1774,11 @@ const courses = {
                 hours: '3-0-0',
                 credits: 3,
                 syllabus: 'https://iitj.ac.in/uploaded_docs/dept_upload/bio/curriculum_document-2020-10-03-22-20-pm.pdf#page=37',
-                semesterAvailability: ['odd'], 
+                semesterAvailability: ['odd'],
+                professors: [
+                    { year: 2023, name: 'Dr. Indranil Banerjee' },
+                    { year: 2022, name: 'Dr. Indranil Banerjee' },
+                ],
             },
             {
                 name: 'Interfacial Engineering in Soft Matter (CHE)',
@@ -1297,7 +1786,10 @@ const courses = {
                 hours: '3-0-0',
                 credits: 3,
                 syllabus: 'https://iitj.ac.in/uploaded_docs/dept_upload/cml/UG_Curriculum_document-2020-11-11-17-01-pm.pdf#page=49',
-                semesterAvailability: ['odd','even'], 
+                semesterAvailability: ['odd', 'even'],
+                professors: [
+                    
+                ],
             },
             {
                 name: 'Quantum Mechanics (PHY)',
@@ -1305,7 +1797,11 @@ const courses = {
                 hours: '3-0-0',
                 credits: 3,
                 syllabus: 'https://shorturl.at/isILO',
-                semesterAvailability: ['odd'], 
+                semesterAvailability: ['odd'],
+                professors: [
+                    { year: 2022, name: 'Dr. Somnath Ghosh' },
+                    { year: 2021, name: 'Dr. B M Krishna Mariserla' },
+                ],
             },
             {
                 name: 'Advanced Condensed Matter Physics (PHY)',
@@ -1313,7 +1809,11 @@ const courses = {
                 hours: '3-0-0',
                 credits: 3,
                 syllabus: 'https://rb.gy/r8dcw',
-                semesterAvailability: ['odd'], 
+                semesterAvailability: ['odd'],
+                professors: [
+                    { year: 2023, name: 'Dr. Sunita' },
+                    
+                ],
             },
             {
                 name: 'Energy Harvesting Technologies (PHY)',
@@ -1321,7 +1821,10 @@ const courses = {
                 hours: '3-0-0',
                 credits: 3,
                 syllabus: 'https://rb.gy/1u74o',
-                semesterAvailability: ['odd','even'], 
+                semesterAvailability: ['odd', 'even'],
+                professors: [
+                
+                ],
             },
             {
                 name: 'Physics of Solar Cells (PHY)',
@@ -1329,7 +1832,10 @@ const courses = {
                 hours: '3-0-0',
                 credits: 3,
                 syllabus: 'https://rb.gy/ywwi6',
-                semesterAvailability: ['odd','even'], 
+                semesterAvailability: ['odd', 'even'],
+                professors: [
+                
+                ],
             },
         ],
         comp_mat_eng: [
@@ -1339,7 +1845,11 @@ const courses = {
                 hours: '2-0-2',
                 credits: 3,
                 syllabus: 'https://iitj.ac.in/uploaded_docs/dept_upload/mat/B.Tech.%20Curriculum_document-2020-10-07-12-26-pm.pdf#page=56',
-                semesterAvailability: ['odd'], 
+                semesterAvailability: ['odd'],
+                professors: [
+                    { year: 2023, name: 'Dr. Ravi K R' },
+                    
+                ],
             },
             {
                 name: 'Modelling of Metallurgical Processes',
@@ -1347,7 +1857,10 @@ const courses = {
                 hours: '3-0-0',
                 credits: 3,
                 syllabus: 'https://iitj.ac.in/uploaded_docs/dept_upload/mat/B.Tech.%20Curriculum_document-2020-10-07-12-26-pm.pdf',
-                semesterAvailability: ['odd','even'], 
+                semesterAvailability: ['odd', 'even'],
+                professors: [
+                
+                ],
             },
             {
                 name: 'Machine Learning for Materials Design',
@@ -1355,7 +1868,10 @@ const courses = {
                 hours: '2-0-2',
                 credits: 3,
                 syllabus: 'https://iitj.ac.in/uploaded_docs/dept_upload/mat/B.Tech.%20Curriculum_document-2020-10-07-12-26-pm.pdf',
-                semesterAvailability: ['odd','even'], 
+                semesterAvailability: ['odd', 'even'],
+                professors: [
+                
+                ],
             },
             {
                 name: 'First-Principles Calculations',
@@ -1363,7 +1879,11 @@ const courses = {
                 hours: '3-0-2',
                 credits: 4,
                 syllabus: 'https://iitj.ac.in/uploaded_docs/dept_upload/mat/B.Tech.%20Curriculum_document-2020-10-07-12-26-pm.pdf',
-                semesterAvailability: ['odd'], 
+                semesterAvailability: ['odd'],
+                professors: [
+                    { year: 2023, name: 'Dr. Appala Naidu Gandi' },
+                    
+                ],
             },
             {
                 name: 'Phase field modelling',
@@ -1371,7 +1891,10 @@ const courses = {
                 hours: '3-0-0',
                 credits: 3,
                 syllabus: 'https://iitj.ac.in/uploaded_docs/dept_upload/mat/B.Tech.%20Curriculum_document-2020-10-07-12-26-pm.pdf',
-                semesterAvailability: ['odd','even'], 
+                semesterAvailability: ['odd', 'even'],
+                professors: [
+                
+                ],
             },
             {
                 name: 'Industry 4.0: Applications in Metallurgical and Materials Engineering',
@@ -1379,7 +1902,11 @@ const courses = {
                 hours: '2-0-0',
                 credits: 2,
                 syllabus: 'https://iitj.ac.in/uploaded_docs/dept_upload/mat/B.Tech.%20Curriculum_document-2020-10-07-12-26-pm.pdf',
-                semesterAvailability: ['odd'], 
+                semesterAvailability: ['odd'],
+                professors: [
+                    { year: 2023, name: 'Dr. Ravi K R' },
+                    { year: 2022, name: 'Dr. Ravi K R' },
+                ],
             },
             {
                 name: 'Introduction to Internet of Things (EE)',
@@ -1387,7 +1914,10 @@ const courses = {
                 hours: '1-0-0',
                 credits: 1,
                 syllabus: 'https://iitj.ac.in/uploaded_docs/dept_upload/mat/B.Tech.%20Curriculum_document-2020-10-07-12-26-pm.pdf',
-                semesterAvailability: ['odd'], 
+                semesterAvailability: ['odd'],
+                professors: [
+                    
+                ],
             },
             {
                 name: 'Finite Element Methods (ME)',
@@ -1395,7 +1925,11 @@ const courses = {
                 hours: '3-0-0',
                 credits: 3,
                 syllabus: 'https://iitj.ac.in/uploaded_docs/UG/ME/1%20B.Tech%20ME%20Curriculum%20structure.pdf#page=82',
-                semesterAvailability: ['odd'], 
+                semesterAvailability: ['odd'],
+                professors: [
+                    { year: 2023, name: 'Dr. Barun Pratiher' },
+                    { year: 2022, name: 'Dr. Barun Pratiher' },
+                ],
             },
             {
                 name: 'Artificial Intelligence (CSE)',
@@ -1403,7 +1937,11 @@ const courses = {
                 hours: '3-0-0',
                 credits: 3,
                 syllabus: 'https://cse.iitj.ac.in/images/pdf/curriculum/CSE-Courses-Details.pdf#page=62',
-                semesterAvailability: ['odd'], 
+                semesterAvailability: ['odd'],
+                professors: [
+                    { year: 2023, name: 'Dr. Manish Aggarwal' },
+                    { year: 2022, name: 'Dr. Manish Aggarwal' },
+                ],
             },
             {
                 name: 'Deep Learning (CSE) ',
@@ -1411,7 +1949,11 @@ const courses = {
                 hours: '3-0-3',
                 credits: 4.5,
                 syllabus: 'https://cse.iitj.ac.in/images/pdf/curriculum/CSE-Courses-Details.pdf#page=25',
-                semesterAvailability: ['even'], 
+                semesterAvailability: ['even'],
+                professors: [
+                    { year: 2023, name: 'Dr. Mayank Vatsa' },
+                    { year: 2022, name: 'Dr. Mayank Vatsa' },
+                ],
             },
             {
                 name: 'Optimization (Offered by MA)',
@@ -1419,7 +1961,11 @@ const courses = {
                 hours: '3-0-0',
                 credits: 3,
                 syllabus: 'https://cse.iitj.ac.in/images/pdf/curriculum/CSE-Courses-Details.pdf#page=27',
-                semesterAvailability: ['odd'], 
+                semesterAvailability: ['odd'],
+                professors: [
+                    { year: 2023, name: 'Md Abu Talhamainuddin Ansary' },
+                    { year: 2022, name: 'Md Abu Talhamainuddin Ansary' },
+                ]
             },
         ],
         process_met: [
@@ -1429,7 +1975,10 @@ const courses = {
                 hours: '3-0-0',
                 credits: 3,
                 syllabus: 'https://iitj.ac.in/uploaded_docs/dept_upload/mat/B.Tech.%20Curriculum_document-2020-10-07-12-26-pm.pdf#page=57',
-                semesterAvailability: ['odd','even'], 
+                semesterAvailability: ['odd', 'even'],
+                professors: [
+                    
+                ],
             },
             {
                 name: 'Kinetics of Metallurgical Processes',
@@ -1437,7 +1986,10 @@ const courses = {
                 hours: '3-0-0',
                 credits: 3,
                 syllabus: 'https://iitj.ac.in/uploaded_docs/dept_upload/mat/B.Tech.%20Curriculum_document-2020-10-07-12-26-pm.pdf#page=58',
-                semesterAvailability: ['odd','even'], 
+                semesterAvailability: ['odd', 'even'],
+                professors: [
+                    
+                ],
             },
             {
                 name: 'Principles of Process Metallurgy',
@@ -1445,7 +1997,10 @@ const courses = {
                 hours: '3-0-0',
                 credits: 3,
                 syllabus: 'https://iitj.ac.in/uploaded_docs/dept_upload/mat/B.Tech.%20Curriculum_document-2020-10-07-12-26-pm.pdf#page=59',
-                semesterAvailability: ['odd','even'], 
+                semesterAvailability: ['odd', 'even'],
+                professors: [
+                    
+                ],
             },
             {
                 name: 'Hydrometallurgy',
@@ -1453,7 +2008,10 @@ const courses = {
                 hours: '3-0-0',
                 credits: 3,
                 syllabus: 'https://iitj.ac.in/uploaded_docs/dept_upload/mat/B.Tech.%20Curriculum_document-2020-10-07-12-26-pm.pdf#page=60',
-                semesterAvailability: ['odd','even'], 
+                semesterAvailability: ['odd', 'even'],
+                professors: [
+                    
+                ],
             },
             {
                 name: 'Electrometallurgy',
@@ -1461,7 +2019,10 @@ const courses = {
                 hours: '3-0-0',
                 credits: 3,
                 syllabus: 'https://iitj.ac.in/uploaded_docs/dept_upload/mat/B.Tech.%20Curriculum_document-2020-10-07-12-26-pm.pdf#page=61',
-                semesterAvailability: ['odd','even'], 
+                semesterAvailability: ['odd', 'even'],
+                professors: [
+                    
+                ],
             },
             {
                 name: 'Secondary and Special Steelmaking',
@@ -1469,7 +2030,10 @@ const courses = {
                 hours: '3-0-0',
                 credits: 3,
                 syllabus: 'https://iitj.ac.in/uploaded_docs/dept_upload/mat/B.Tech.%20Curriculum_document-2020-10-07-12-26-pm.pdf#page=62',
-                semesterAvailability: ['odd','even'], 
+                semesterAvailability: ['odd', 'even'],
+                professors: [
+                    
+                ],
             },
             {
                 name: 'Processing of Rare Earth and Radioactive Materials (CH)',
@@ -1477,7 +2041,10 @@ const courses = {
                 hours: '3-0-0',
                 credits: 3,
                 syllabus: 'https://iitj.ac.in/uploaded_docs/dept_upload/mat/B.Tech.%20Curriculum_document-2020-10-07-12-26-pm.pdf',
-                semesterAvailability: ['odd','even'], 
+                semesterAvailability: ['odd', 'even'],
+                professors: [
+                    
+                ],
             },
             {
                 name: 'Computational Fluid Dynamics (CH)',
@@ -1485,7 +2052,11 @@ const courses = {
                 hours: '3-0-2',
                 credits: 4,
                 syllabus: 'https://iitj.ac.in/uploaded_docs/dept_upload/mat/B.Tech.%20Curriculum_document-2020-10-07-12-26-pm.pdf',
-                semesterAvailability: ['odd','even'], 
+                semesterAvailability: ['odd', 'even'],
+                professors: [
+                    { year: 2023, name: 'Dr. Sudipto Mukhopadhyay' },
+                    
+                ],
             },
 
         ],
@@ -1499,7 +2070,11 @@ const courses = {
                 hours: '3-0-0',
                 credits: 3,
                 syllabus: 'https://iitj.ac.in/uploaded_docs/dept_upload/cvl/UG_Civil%20and%20Infrastructure%20Engineering%20Curriculum%20_document-2020-10-03-20-04-pm.pdf#page=109',
-                semesterAvailability: ['even'], 
+                semesterAvailability: ['even'],
+                professors: [
+                    { year: 2023, name: 'Dr. Mayank Suman' },
+                    
+                ],
             },
             {
                 name: 'Building Services',
@@ -1507,7 +2082,10 @@ const courses = {
                 hours: '3-0-0',
                 credits: 3,
                 syllabus: 'https://iitj.ac.in/uploaded_docs/dept_upload/cvl/UG_Civil%20and%20Infrastructure%20Engineering%20Curriculum%20_document-2020-10-03-20-04-pm.pdf#page=115',
-                semesterAvailability: ['odd','even'], 
+                semesterAvailability: ['odd', 'even'],
+                professors: [
+                    
+                ],
             },
             {
                 name: 'Intelligent Buildings',
@@ -1515,7 +2093,10 @@ const courses = {
                 hours: '3-0-0',
                 credits: 3,
                 syllabus: 'https://iitj.ac.in/uploaded_docs/dept_upload/cvl/UG_Civil%20and%20Infrastructure%20Engineering%20Curriculum%20_document-2020-10-03-20-04-pm.pdf#page=113',
-                semesterAvailability: ['odd','even'], 
+                semesterAvailability: ['odd', 'even'],
+                professors: [
+                    
+                ],
             },
             {
                 name: 'Surveillance and Security of Infrastructures',
@@ -1523,7 +2104,10 @@ const courses = {
                 hours: '3-0-0',
                 credits: 3,
                 syllabus: 'https://iitj.ac.in/uploaded_docs/dept_upload/cvl/UG_Civil%20and%20Infrastructure%20Engineering%20Curriculum%20_document-2020-10-03-20-04-pm.pdf#page=103',
-                semesterAvailability: ['odd','even'], 
+                semesterAvailability: ['odd', 'even'],
+                professors: [
+                    
+                ],
             },
             {
                 name: 'Cyber-Physical Systems for Infrastructure',
@@ -1531,7 +2115,10 @@ const courses = {
                 hours: '3-0-0',
                 credits: 3,
                 syllabus: 'https://iitj.ac.in/uploaded_docs/dept_upload/cvl/UG_Civil%20and%20Infrastructure%20Engineering%20Curriculum%20_document-2020-10-03-20-04-pm.pdf#page=107',
-                semesterAvailability: ['odd'], 
+                semesterAvailability: ['odd'],
+                professors: [
+                    { year: 2023, name: 'Dr. Tekcham Gishan Singh' }, 
+                ],
             },
             {
                 name: 'Digital Twin and Asset management',
@@ -1539,7 +2126,10 @@ const courses = {
                 hours: '3-0-0',
                 credits: 3,
                 syllabus: 'https://iitj.ac.in/uploaded_docs/dept_upload/cvl/UG_Civil%20and%20Infrastructure%20Engineering%20Curriculum%20_document-2020-10-03-20-04-pm.pdf#page=105',
-                semesterAvailability: ['odd','even'], 
+                semesterAvailability: ['odd', 'even'],
+                professors: [
+                    
+                ],
             },
         ],
         geo_eng: [
@@ -1549,7 +2139,10 @@ const courses = {
                 hours: '3-0-0',
                 credits: 3,
                 syllabus: 'https://iitj.ac.in/uploaded_docs/dept_upload/cvl/UG_Civil%20and%20Infrastructure%20Engineering%20Curriculum%20_document-2020-10-03-20-04-pm.pdf#page=91',
-                semesterAvailability: ['odd','even'], 
+                semesterAvailability: ['odd', 'even'],
+                professors: [
+                    
+                ],
             },
             {
                 name: 'Ground Improvement Techniques',
@@ -1557,7 +2150,10 @@ const courses = {
                 hours: '3-0-0',
                 credits: 3,
                 syllabus: 'https://iitj.ac.in/uploaded_docs/dept_upload/cvl/UG_Civil%20and%20Infrastructure%20Engineering%20Curriculum%20_document-2020-10-03-20-04-pm.pdf#page=93',
-                semesterAvailability: ['odd','even'], 
+                semesterAvailability: ['odd', 'even'],
+                professors: [
+                    
+                ],
             },
             {
                 name: 'Introduction to Soil Dynamics',
@@ -1565,7 +2161,10 @@ const courses = {
                 hours: '3-0-0',
                 credits: 3,
                 syllabus: 'https://iitj.ac.in/uploaded_docs/dept_upload/cvl/UG_Civil%20and%20Infrastructure%20Engineering%20Curriculum%20_document-2020-10-03-20-04-pm.pdf#page=95',
-                semesterAvailability: ['odd','even'], 
+                semesterAvailability: ['odd', 'even'],
+                professors: [
+                    
+                ],
             },
             {
                 name: 'Advanced Geotechnical Engineering',
@@ -1573,7 +2172,10 @@ const courses = {
                 hours: '3-0-0',
                 credits: 3,
                 syllabus: 'https://iitj.ac.in/uploaded_docs/dept_upload/cvl/UG_Civil%20and%20Infrastructure%20Engineering%20Curriculum%20_document-2020-10-03-20-04-pm.pdf#page=97',
-                semesterAvailability: ['odd','even'], 
+                semesterAvailability: ['odd', 'even'],
+                professors: [
+                    
+                ],
             },
         ],
         env_eng: [
@@ -1583,7 +2185,11 @@ const courses = {
                 hours: '3-0-0',
                 credits: 3,
                 syllabus: 'https://iitj.ac.in/uploaded_docs/dept_upload/cvl/UG_Civil%20and%20Infrastructure%20Engineering%20Curriculum%20_document-2020-10-03-20-04-pm.pdf#page=99',
-                semesterAvailability: ['odd','even'], 
+                semesterAvailability: ['odd'],
+                professors: [
+                    { year: 2022, name: 'Dr. Deepika Bhattu' },
+                    { year: 2021, name: 'Dr. Deepika Bhattu' },
+                ],
             },
             {
                 name: 'Mathematical Modelling in Environmental System',
@@ -1591,7 +2197,10 @@ const courses = {
                 hours: '3-0-0',
                 credits: 3,
                 syllabus: 'https://iitj.ac.in/uploaded_docs/dept_upload/cvl/UG_Civil%20and%20Infrastructure%20Engineering%20Curriculum%20_document-2020-10-03-20-04-pm.pdf#page=111',
-                semesterAvailability: ['odd','even'], 
+                semesterAvailability: ['odd', 'even'],
+                professors: [
+                    
+                ],
             },
             {
                 name: 'Industrial Waste: Control and Utilization',
@@ -1599,7 +2208,10 @@ const courses = {
                 hours: '3-0-0',
                 credits: 3,
                 syllabus: 'https://iitj.ac.in/uploaded_docs/dept_upload/cvl/UG_Civil%20and%20Infrastructure%20Engineering%20Curriculum%20_document-2020-10-03-20-04-pm.pdf#page=101',
-                semesterAvailability: ['odd','even'], 
+                semesterAvailability: ['odd', 'even'],
+                professors: [
+                    
+                ],
             },
             {
                 name: 'Environmental Biotechnology and Bioremediation',
@@ -1607,7 +2219,10 @@ const courses = {
                 hours: '3-0-2',
                 credits: 4,
                 syllabus: 'https://iitj.ac.in/uploaded_docs/dept_upload/cvl/UG_Civil%20and%20Infrastructure%20Engineering%20Curriculum%20_document-2020-10-03-20-04-pm.pdf#page=117',
-                semesterAvailability: ['odd','even'], 
+                semesterAvailability: ['odd', 'even'],
+                professors: [
+                    
+                ],
             },
         ],
         trans_eng: [
@@ -1617,7 +2232,10 @@ const courses = {
                 hours: '3-0-0',
                 credits: 3,
                 syllabus: 'https://iitj.ac.in/uploaded_docs/dept_upload/cvl/UG_Civil%20and%20Infrastructure%20Engineering%20Curriculum%20_document-2020-10-03-20-04-pm.pdf#page=83',
-                semesterAvailability: ['odd','even'], 
+                semesterAvailability: ['odd', 'even'],
+                professors: [
+                    
+                ],
             },
             {
                 name: 'Pavement Engineering',
@@ -1625,7 +2243,10 @@ const courses = {
                 hours: '3-0-0',
                 credits: 3,
                 syllabus: 'https://iitj.ac.in/uploaded_docs/dept_upload/cvl/UG_Civil%20and%20Infrastructure%20Engineering%20Curriculum%20_document-2020-10-03-20-04-pm.pdf#page=85',
-                semesterAvailability: ['odd','even'], 
+                semesterAvailability: ['odd', 'even'],
+                professors: [
+                    
+                ],
             },
             {
                 name: 'Traffic System and ITS',
@@ -1633,7 +2254,10 @@ const courses = {
                 hours: '3-0-0',
                 credits: 3,
                 syllabus: 'https://iitj.ac.in/uploaded_docs/dept_upload/cvl/UG_Civil%20and%20Infrastructure%20Engineering%20Curriculum%20_document-2020-10-03-20-04-pm.pdf#page=87',
-                semesterAvailability: ['odd','even'], 
+                semesterAvailability: ['odd', 'even'],
+                professors: [
+                    
+                ],
             },
             {
                 name: 'Urban Transportation Planning',
@@ -1641,7 +2265,10 @@ const courses = {
                 hours: '3-0-0',
                 credits: 3,
                 syllabus: 'https://iitj.ac.in/uploaded_docs/dept_upload/cvl/UG_Civil%20and%20Infrastructure%20Engineering%20Curriculum%20_document-2020-10-03-20-04-pm.pdf#page=89',
-                semesterAvailability: ['odd','even'], 
+                semesterAvailability: ['odd', 'even'],
+                professors: [
+                    
+                ],
             },
         ],
         cons_infra: [
@@ -1651,7 +2278,10 @@ const courses = {
                 hours: '3-0-3',
                 credits: 4.5,
                 syllabus: 'https://iitj.ac.in/uploaded_docs/dept_upload/cvl/UG_Civil%20and%20Infrastructure%20Engineering%20Curriculum%20_document-2020-10-03-20-04-pm.pdf#page=77',
-                semesterAvailability: ['odd','even'], 
+                semesterAvailability: ['odd', 'even'],
+                professors: [
+                    
+                ],
             },
             {
                 name: 'Infrastructure Planning and Management',
@@ -1659,7 +2289,10 @@ const courses = {
                 hours: '3-0-2',
                 credits: 4,
                 syllabus: 'https://iitj.ac.in/uploaded_docs/dept_upload/cvl/UG_Civil%20and%20Infrastructure%20Engineering%20Curriculum%20_document-2020-10-03-20-04-pm.pdf#page=123',
-                semesterAvailability: ['odd'], 
+                semesterAvailability: ['odd'],
+                professors: [
+                    
+                ],
             },
         ],
         struct_eng: [
@@ -1669,7 +2302,10 @@ const courses = {
                 hours: '3-1-0',
                 credits: 4,
                 syllabus: 'https://iitj.ac.in/uploaded_docs/dept_upload/cvl/UG_Civil%20and%20Infrastructure%20Engineering%20Curriculum%20_document-2020-10-03-20-04-pm.pdf#page=67',
-                semesterAvailability: ['odd','even'], 
+                semesterAvailability: ['odd', 'even'],
+                professors: [
+                    
+                ],
             },
             {
                 name: 'Advanced Structural Design',
@@ -1677,7 +2313,10 @@ const courses = {
                 hours: '3-0-0',
                 credits: 3,
                 syllabus: 'https://iitj.ac.in/uploaded_docs/dept_upload/cvl/UG_Civil%20and%20Infrastructure%20Engineering%20Curriculum%20_document-2020-10-03-20-04-pm.pdf#page=69',
-                semesterAvailability: ['odd','even'], 
+                semesterAvailability: ['odd', 'even'],
+                professors: [
+                    
+                ],
             },
             {
                 name: 'Dynamics of Structure',
@@ -1685,7 +2324,10 @@ const courses = {
                 hours: '3-0-0',
                 credits: 3,
                 syllabus: 'https://iitj.ac.in/uploaded_docs/dept_upload/cvl/UG_Civil%20and%20Infrastructure%20Engineering%20Curriculum%20_document-2020-10-03-20-04-pm.pdf#page=71',
-                semesterAvailability: ['odd','even'], 
+                semesterAvailability: ['odd', 'even'],
+                professors: [
+                    
+                ],
             },
             {
                 name: 'Finite Element Method',
@@ -1693,7 +2335,11 @@ const courses = {
                 hours: '3-0-0',
                 credits: 3,
                 syllabus: 'https://iitj.ac.in/uploaded_docs/dept_upload/cvl/UG_Civil%20and%20Infrastructure%20Engineering%20Curriculum%20_document-2020-10-03-20-04-pm.pdf#page=73',
-                semesterAvailability: ['odd'], 
+                semesterAvailability: ['odd'],
+                professors: [
+                    { year: 2023, name: 'Dr. Barun Pratiher' },
+                    { year: 2022, name: 'Dr. Barun Pratiher' },
+                ],
             },
             {
                 name: 'Prestressed concrete structures',
@@ -1701,7 +2347,10 @@ const courses = {
                 hours: '3-0-0',
                 credits: 3,
                 syllabus: 'https://iitj.ac.in/uploaded_docs/dept_upload/cvl/UG_Civil%20and%20Infrastructure%20Engineering%20Curriculum%20_document-2020-10-03-20-04-pm.pdf#page=79',
-                semesterAvailability: ['odd','even'], 
+                semesterAvailability: ['odd', 'even'],
+                professors: [
+                    
+                ],
             },
             {
                 name: 'Prefabricated structures',
@@ -1709,7 +2358,10 @@ const courses = {
                 hours: '3-0-0',
                 credits: 3,
                 syllabus: 'https://iitj.ac.in/uploaded_docs/dept_upload/cvl/UG_Civil%20and%20Infrastructure%20Engineering%20Curriculum%20_document-2020-10-03-20-04-pm.pdf#page=81',
-                semesterAvailability: ['odd','even'], 
+                semesterAvailability: ['odd', 'even'],
+                professors: [
+                    
+                ],
             },
             {
                 name: 'Earthquake Engineering',
@@ -1717,7 +2369,10 @@ const courses = {
                 hours: '3-0-0',
                 credits: 3,
                 syllabus: 'https://iitj.ac.in/uploaded_docs/dept_upload/cvl/UG_Civil%20and%20Infrastructure%20Engineering%20Curriculum%20_document-2020-10-03-20-04-pm.pdf#page=75',
-                semesterAvailability: ['odd','even'], 
+                semesterAvailability: ['odd', 'even'],
+                professors: [
+                    { year: 2022, name: 'Dr. Amit Kumar Rathi' },
+                ],
             },
             {
                 name: 'Introduction to Structural Health monitoring',
@@ -1725,7 +2380,10 @@ const courses = {
                 hours: '3-0-0',
                 credits: 3,
                 syllabus: 'https://iitj.ac.in/uploaded_docs/dept_upload/cvl/UG_Civil%20and%20Infrastructure%20Engineering%20Curriculum%20_document-2020-10-03-20-04-pm.pdf#page=121',
-                semesterAvailability: ['odd','even'], 
+                semesterAvailability: ['odd', 'even'],
+                professors: [
+                    
+                ],
             },
         ],
         res_eng: [
@@ -1735,7 +2393,10 @@ const courses = {
                 hours: '3-0-2',
                 credits: 4,
                 syllabus: 'https://iitj.ac.in/uploaded_docs/dept_upload/cvl/UG_Civil%20and%20Infrastructure%20Engineering%20Curriculum%20_document-2020-10-03-20-04-pm.pdf#page=119',
-                semesterAvailability: ['odd'], 
+                semesterAvailability: ['odd'],
+                professors: [
+                    { year: 2023, name: 'Dr. Saran Aadhar' },
+                ],
             },
         ],
         infra_sys: [
@@ -1745,7 +2406,10 @@ const courses = {
                 hours: '3-0-0',
                 credits: 3,
                 syllabus: 'https://iitj.ac.in/uploaded_docs/dept_upload/cvl/UG_Civil%20and%20Infrastructure%20Engineering%20Curriculum%20_document-2020-10-03-20-04-pm.pdf#page=125',
-                semesterAvailability: ['odd','even'], 
+                semesterAvailability: ['odd', 'even'],
+                professors: [
+                    
+                ],
             },
             {
                 name: 'Thermal and nuclear power infrastructure Engineering',
@@ -1753,7 +2417,10 @@ const courses = {
                 hours: '3-0-0',
                 credits: 3,
                 syllabus: 'https://iitj.ac.in/uploaded_docs/dept_upload/cvl/UG_Civil%20and%20Infrastructure%20Engineering%20Curriculum%20_document-2020-10-03-20-04-pm.pdf#page=127',
-                semesterAvailability: ['odd','even'], 
+                semesterAvailability: ['odd', 'even'],
+                professors: [
+                    
+                ],
             },
             {
                 name: 'Infrastructure planning and design for rail and air transport',
@@ -1761,7 +2428,10 @@ const courses = {
                 hours: '3-0-0',
                 credits: 3,
                 syllabus: 'https://iitj.ac.in/uploaded_docs/dept_upload/cvl/UG_Civil%20and%20Infrastructure%20Engineering%20Curriculum%20_document-2020-10-03-20-04-pm.pdf#page=129',
-                semesterAvailability: ['odd'], 
+                semesterAvailability: ['odd'],
+                professors: [
+                    
+                ],
             },
             {
                 name: 'Infrastructure planning and design of ports and harbours',
@@ -1769,7 +2439,10 @@ const courses = {
                 hours: '3-0-0',
                 credits: 3,
                 syllabus: 'https://iitj.ac.in/uploaded_docs/dept_upload/cvl/UG_Civil%20and%20Infrastructure%20Engineering%20Curriculum%20_document-2020-10-03-20-04-pm.pdf#page=131',
-                semesterAvailability: ['odd','even'], 
+                semesterAvailability: ['odd', 'even'],
+                professors: [
+                    
+                ],
             },
             {
                 name: 'IT and Telecom Infrastructure',
@@ -1777,7 +2450,10 @@ const courses = {
                 hours: '3-0-0',
                 credits: 3,
                 syllabus: 'https://iitj.ac.in/uploaded_docs/dept_upload/cvl/UG_Civil%20and%20Infrastructure%20Engineering%20Curriculum%20_document-2020-10-03-20-04-pm.pdf#page=133',
-                semesterAvailability: ['odd','even'], 
+                semesterAvailability: ['odd', 'even'],
+                professors: [
+                    
+                ],
             },
             {
                 name: 'Green Building and Sustainable Materials',
@@ -1785,7 +2461,10 @@ const courses = {
                 hours: '3-0-0',
                 credits: 3,
                 syllabus: 'https://iitj.ac.in/uploaded_docs/dept_upload/cvl/UG_Civil%20and%20Infrastructure%20Engineering%20Curriculum%20_document-2020-10-03-20-04-pm.pdf#page=135',
-                semesterAvailability: ['even'], 
+                semesterAvailability: ['even'],
+                professors: [
+                    { year: 2023, name: 'Bhupendra Singh' },
+                ],
             },
         ],
     },
@@ -1798,7 +2477,10 @@ const courses = {
                 hours: '3-0-0',
                 credits: 3,
                 syllabus: 'https://iitj.ac.in/uploaded_docs/dept_upload/bio/curriculum_document-2020-10-03-22-20-pm.pdf#page=32',
-                semesterAvailability: ['odd'], 
+                semesterAvailability: ['odd'],
+                professors: [
+                    { year: 2023, name: 'Dr. Shankar Manoharan' },
+                ],
             },
             {
                 name: 'Computational Methods for Multiomics',
@@ -1806,7 +2488,10 @@ const courses = {
                 hours: '3-0-2',
                 credits: 4,
                 syllabus: 'https://iitj.ac.in/uploaded_docs/dept_upload/bio/curriculum_document-2020-10-03-22-20-pm.pdf',
-                semesterAvailability: ['odd','even'], 
+                semesterAvailability: ['odd', 'even'],
+                professors: [
+                
+                ],
             },
             {
                 name: 'Microarray Data Analysis',
@@ -1814,7 +2499,10 @@ const courses = {
                 hours: '3-0-0',
                 credits: 3,
                 syllabus: 'https://iitj.ac.in/uploaded_docs/dept_upload/bio/curriculum_document-2020-10-03-22-20-pm.pdf#page=34',
-                semesterAvailability: ['odd','even'], 
+                semesterAvailability: ['odd', 'even'],
+                professors: [
+                
+                ],
             },
         ],
         biom_eng: [
@@ -1824,7 +2512,10 @@ const courses = {
                 hours: '3-0-0',
                 credits: 3,
                 syllabus: 'https://iitj.ac.in/uploaded_docs/dept_upload/bio/curriculum_document-2020-10-03-22-20-pm.pdf#page=36',
-                semesterAvailability: ['even'], 
+                semesterAvailability: ['even'],
+                professors: [
+                    { year: 2023, name: 'Dr. Raviraj Vankayala' },
+                ],
             },
             {
                 name: 'Tissue Engineering',
@@ -1832,7 +2523,11 @@ const courses = {
                 hours: '3-0-0',
                 credits: 3,
                 syllabus: 'https://iitj.ac.in/uploaded_docs/dept_upload/bio/curriculum_document-2020-10-03-22-20-pm.pdf#page=37',
-                semesterAvailability: ['odd'], 
+                semesterAvailability: ['odd'],
+                professors: [
+                    { year: 2023, name: 'Dr. Indranil Banerjee' },
+                    { year: 2022, name: 'Dr. Indranil Banerjee' },
+                ],
             },
             {
                 name: 'Therapeutic Delivery Systems',
@@ -1840,7 +2535,10 @@ const courses = {
                 hours: '2-0-0',
                 credits: 2,
                 syllabus: 'https://iitj.ac.in/uploaded_docs/dept_upload/bio/curriculum_document-2020-10-03-22-20-pm.pdf#page=38',
-                semesterAvailability: ['odd','even'], 
+                semesterAvailability: ['odd', 'even'],
+                professors: [
+                
+                ],
             },
             {
                 name: 'Principles of Biomechanics',
@@ -1848,7 +2546,10 @@ const courses = {
                 hours: '3-0-0',
                 credits: 3,
                 syllabus: 'https://iitj.ac.in/uploaded_docs/dept_upload/bio/curriculum_document-2020-10-03-22-20-pm.pdf',
-                semesterAvailability: ['odd','even'], 
+                semesterAvailability: ['odd', 'even'],
+                professors: [
+                
+                ],
             },
             {
                 name: 'Additive Manufacturing',
@@ -1856,7 +2557,10 @@ const courses = {
                 hours: '3-0-0',
                 credits: 3,
                 syllabus: 'https://iitj.ac.in/uploaded_docs/dept_upload/bio/curriculum_document-2020-10-03-22-20-pm.pdf',
-                semesterAvailability: ['odd'], 
+                semesterAvailability: ['odd'],
+                professors: [
+                    { year: 2023, name: '' },
+                ],
             },
             {
                 name: 'Bio-transport Phenomena',
@@ -1864,7 +2568,10 @@ const courses = {
                 hours: '3-0-0',
                 credits: 3,
                 syllabus: 'https://iitj.ac.in/uploaded_docs/dept_upload/bio/curriculum_document-2020-10-03-22-20-pm.pdf#page=39',
-                semesterAvailability: ['odd','even'], 
+                semesterAvailability: ['odd', 'even'],
+                professors: [
+                
+                ],
             },
         ],
         csb: [
@@ -1874,7 +2581,10 @@ const courses = {
                 hours: '3-0-0',
                 credits: 3,
                 syllabus: 'https://iitj.ac.in/uploaded_docs/dept_upload/bio/curriculum_document-2020-10-03-22-20-pm.pdf',
-                semesterAvailability: ['odd','even'], 
+                semesterAvailability: ['odd', 'even'],
+                professors: [
+                
+                ],
             },
             {
                 name: 'Algorithms in Biology',
@@ -1882,7 +2592,11 @@ const courses = {
                 hours: '3-0-0',
                 credits: 3,
                 syllabus: 'https://iitj.ac.in/uploaded_docs/dept_upload/bio/curriculum_document-2020-10-03-22-20-pm.pdf#page=41',
-                semesterAvailability: ['even'], 
+                semesterAvailability: ['even'],
+                professors: [
+                    { year: 2023, name: 'Dr. Sucharita Dey' },
+                    { year: 2022, name: 'Dr. Sushmita Paul' },
+                ],
             },
             {
                 name: 'Modelling Biological Systems',
@@ -1890,7 +2604,10 @@ const courses = {
                 hours: '2-0-2',
                 credits: 3,
                 syllabus: 'https://iitj.ac.in/uploaded_docs/dept_upload/bio/curriculum_document-2020-10-03-22-20-pm.pdf#page=42',
-                semesterAvailability: ['odd','even'], 
+                semesterAvailability: ['odd', 'even'],
+                professors: [
+                
+                ],
             },
             {
                 name: 'Design of Experiments',
@@ -1898,7 +2615,10 @@ const courses = {
                 hours: '3-0-0',
                 credits: 3,
                 syllabus: 'https://iitj.ac.in/uploaded_docs/dept_upload/bio/curriculum_document-2020-10-03-22-20-pm.pdf',
-                semesterAvailability: ['odd','even'], 
+                semesterAvailability: ['odd', 'even'],
+                professors: [
+                
+                ],
             },
         ],
         bioimaging: [
@@ -1908,7 +2628,10 @@ const courses = {
                 hours: '3-0-0',
                 credits: 3,
                 syllabus: 'https://cse.iitj.ac.in/images/pdf/BTech_AIDE_24092020.pdf#page=50',
-                semesterAvailability: ['odd','even'], 
+                semesterAvailability: ['odd', 'even'],
+                professors: [
+                    { year: 2022, name: 'Dr. Anil Kumar Tiwari' },
+                ],
             },
             {
                 name: 'Bio-image Computing',
@@ -1916,7 +2639,10 @@ const courses = {
                 hours: '3-0-0',
                 credits: 3,
                 syllabus: 'https://iitj.ac.in/uploaded_docs/dept_upload/bio/curriculum_document-2020-10-03-22-20-pm.pdf',
-                semesterAvailability: ['odd','even'], 
+                semesterAvailability: ['odd', 'even'],
+                professors: [
+                
+                ],
             },
             {
                 name: 'Electron Microscopy for Biology',
@@ -1924,7 +2650,10 @@ const courses = {
                 hours: '3-0-0',
                 credits: 3,
                 syllabus: 'https://iitj.ac.in/uploaded_docs/dept_upload/bio/curriculum_document-2020-10-03-22-20-pm.pdf',
-                semesterAvailability: ['odd','even'], 
+                semesterAvailability: ['odd', 'even'],
+                professors: [
+                
+                ],
             },
             {
                 name: 'Special topics on biomedical imaging',
@@ -1932,7 +2661,10 @@ const courses = {
                 hours: '3-0-0',
                 credits: 3,
                 syllabus: 'https://iitj.ac.in/uploaded_docs/dept_upload/bio/curriculum_document-2020-10-03-22-20-pm.pdf',
-                semesterAvailability: ['odd','even'], 
+                semesterAvailability: ['odd', 'even'],
+                professors: [
+                
+                ],
             },
         ],
         biosensors: [
@@ -1942,7 +2674,10 @@ const courses = {
                 hours: '3-0-0',
                 credits: 3,
                 syllabus: 'https://iitj.ac.in/uploaded_docs/dept_upload/bio/curriculum_document-2020-10-03-22-20-pm.pdf#page=45',
-                semesterAvailability: ['odd','even'], 
+                semesterAvailability: ['odd', 'even'],
+                professors: [
+                
+                ],
             },
             {
                 name: 'Microsystems Fabrication Technology',
@@ -1950,7 +2685,11 @@ const courses = {
                 hours: '3-0-0',
                 credits: 3,
                 syllabus: 'https://iitj.ac.in/uploaded_docs/dept_upload/bio/curriculum_document-2020-10-03-22-20-pm.pdf',
-                semesterAvailability: ['odd'], 
+                semesterAvailability: ['odd'],
+                professors: [
+                    { year: 2023, name: 'Dr. Kamaljit Rangra' },
+                    { year: 2022, name: 'Dr. Ajay Agarwal' },
+                ],
             },
             {
                 name: 'Chemosensors',
@@ -1958,7 +2697,10 @@ const courses = {
                 hours: '3-0-0',
                 credits: 3,
                 syllabus: 'https://iitj.ac.in/uploaded_docs/dept_upload/bio/curriculum_document-2020-10-03-22-20-pm.pdf',
-                semesterAvailability: ['odd','even'], 
+                semesterAvailability: ['odd', 'even'],
+                professors: [
+                
+                ],
             },
         ],
         mssd: [
@@ -1968,7 +2710,10 @@ const courses = {
                 hours: '3-0-0',
                 credits: 3,
                 syllabus: 'https://iitj.ac.in/uploaded_docs/dept_upload/bio/curriculum_document-2020-10-03-22-20-pm.pdf#page=47',
-                semesterAvailability: ['odd','even'], 
+                semesterAvailability: ['odd', 'even'],
+                professors: [
+                
+                ],
             },
             {
                 name: 'Microbes in Food and Sustainable Agriculture',
@@ -1976,7 +2721,10 @@ const courses = {
                 hours: '3-0-0',
                 credits: 3,
                 syllabus: 'https://iitj.ac.in/uploaded_docs/dept_upload/bio/curriculum_document-2020-10-03-22-20-pm.pdf#page=48',
-                semesterAvailability: ['odd','even'], 
+                semesterAvailability: ['odd', 'even'],
+                professors: [
+                
+                ],
             },
             {
                 name: 'Bioenergy',
@@ -1984,7 +2732,11 @@ const courses = {
                 hours: '3-0-0',
                 credits: 3,
                 syllabus: 'https://iitj.ac.in/uploaded_docs/dept_upload/bio/curriculum_document-2020-10-03-22-20-pm.pdf#page=49',
-                semesterAvailability: ['odd'], 
+                semesterAvailability: ['odd'],
+                professors: [
+                    { year: 2023, name: 'Dr. Meenu Chhabra' },
+                    { year: 2022, name: 'Dr. Meenu Chhabra' },
+                ],
             },
         ],
         ddd: [
@@ -1994,7 +2746,10 @@ const courses = {
                 hours: '3-0-0',
                 credits: 3,
                 syllabus: 'https://iitj.ac.in/uploaded_docs/dept_upload/bio/curriculum_document-2020-10-03-22-20-pm.pdf#page=51',
-                semesterAvailability: ['odd','even'],
+                semesterAvailability: ['odd', 'even'],
+                professors: [
+                
+                ],
             },
             {
                 name: 'Medicinal Chemistry',
@@ -2002,7 +2757,10 @@ const courses = {
                 hours: '3-0-0',
                 credits: 3,
                 syllabus: 'https://iitj.ac.in/uploaded_docs/dept_upload/bio/curriculum_document-2020-10-03-22-20-pm.pdf#page=52',
-                semesterAvailability: ['odd','even'],
+                semesterAvailability: ['odd', 'even'],
+                professors: [
+                
+                ],
             },
             {
                 name: 'Viral Infection and Antiviral Drug Development',
@@ -2011,6 +2769,10 @@ const courses = {
                 credits: 3,
                 syllabus: 'https://iitj.ac.in/uploaded_docs/dept_upload/bio/curriculum_document-2020-10-03-22-20-pm.pdf#page=53',
                 semesterAvailability: ['even'],
+                professors: [
+                    { year: 2023, name: 'Dr. Sudipta Bhattacharyya' },
+                    { year: 2021, name: 'Dr. Sudipta Bhattacharyya' },
+                ],
             },
         ],
     },
@@ -2022,7 +2784,11 @@ const courses = {
                 hours: '3-0-0',
                 credits: 3,
                 syllabus: 'https://cse.iitj.ac.in/images/pdf/BTech_AIDE_24092020.pdf#page=33',
-                semesterAvailability: ['even'], 
+                semesterAvailability: ['even'],
+                professors: [
+                    { year: 2023, name: 'Dr. Gaurav Harit' },
+                    { year: 2022, name: 'Dr. Angshuman Paul' },
+                ],
             },
             {
                 name: 'Advanced Machine Learning',
@@ -2030,7 +2796,11 @@ const courses = {
                 hours: '3-0-0',
                 credits: 3,
                 syllabus: 'https://cse.iitj.ac.in/images/pdf/BTech_AIDE_24092020.pdf#page=32',
-                semesterAvailability: ['odd'], 
+                semesterAvailability: ['odd'],
+                professors: [
+                    { year: 2023, name: 'Dr. Mayank Vatsa' },
+                    { year: 2022, name: 'Dr. Mayank Vatsa' },
+                ],
             },
             {
                 name: 'Resource Constrained Artificial Intelligence',
@@ -2038,7 +2808,10 @@ const courses = {
                 hours: '3-0-0',
                 credits: 3,
                 syllabus: 'https://cse.iitj.ac.in/images/pdf/BTech_AIDE_24092020.pdf',
-                semesterAvailability: ['odd','even'], 
+                semesterAvailability: ['odd', 'even'],
+                professors: [
+                    
+                ],
             },
             {
                 name: 'Scalable Machine Learning',
@@ -2046,7 +2819,10 @@ const courses = {
                 hours: '3-0-0',
                 credits: 3,
                 syllabus: 'https://cse.iitj.ac.in/images/pdf/BTech_AIDE_24092020.pdf',
-                semesterAvailability: ['odd','even'], 
+                semesterAvailability: ['odd', 'even'],
+                professors: [
+                    
+                ],
             },
             {
                 name: 'Computational Learning Theory',
@@ -2054,7 +2830,10 @@ const courses = {
                 hours: '3-0-0',
                 credits: 3,
                 syllabus: 'https://cse.iitj.ac.in/images/pdf/BTech_AIDE_24092020.pdf',
-                semesterAvailability: ['odd','even'], 
+                semesterAvailability: ['odd', 'even'],
+                professors: [
+                    
+                ],
             },
             {
                 name: 'Information Retrieval',
@@ -2062,7 +2841,10 @@ const courses = {
                 hours: '3-0-0',
                 credits: 3,
                 syllabus: 'https://cse.iitj.ac.in/images/pdf/BTech_AIDE_24092020.pdf#page=36',
-                semesterAvailability: ['odd','even'], 
+                semesterAvailability: ['odd', 'even'],
+                professors: [
+                    
+                ],
             },
             {
                 name: 'Graph Theoretic Algorithms',
@@ -2070,7 +2852,10 @@ const courses = {
                 hours: '3-0-0',
                 credits: 3,
                 syllabus: 'https://cse.iitj.ac.in/images/pdf/BTech_AIDE_24092020.pdf',
-                semesterAvailability: ['odd','even'], 
+                semesterAvailability: ['odd', 'even'],
+                professors: [
+                    
+                ],
             },
             {
                 name: 'Stream Analytics',
@@ -2078,7 +2863,10 @@ const courses = {
                 hours: '3-0-0',
                 credits: 3,
                 syllabus: 'https://cse.iitj.ac.in/images/pdf/BTech_AIDE_24092020.pdf#page=39',
-                semesterAvailability: ['odd','even'], 
+                semesterAvailability: ['odd', 'even'],
+                professors: [
+                    
+                ],
             },
         ],
         robot: [
@@ -2088,7 +2876,10 @@ const courses = {
                 hours: '3-0-0',
                 credits: 3,
                 syllabus: 'https://shorturl.at/lBJS0',
-                semesterAvailability: ['even'], 
+                semesterAvailability: ['even'],
+                professors: [
+                    { year: 2023, name: 'Dr. Suril Vijaykumar Shah' },
+                ],
             },
             {
                 name: 'Planning and Decision Making of Robots',
@@ -2096,7 +2887,10 @@ const courses = {
                 hours: '3-0-0',
                 credits: 3,
                 syllabus: 'https://cse.iitj.ac.in/images/pdf/BTech_AIDE_24092020.pdf',
-                semesterAvailability: ['odd','even'], 
+                semesterAvailability: ['odd', 'even'],
+                professors: [
+                    
+                ],
             },
             {
                 name: 'Multi-Agent Systems',
@@ -2104,7 +2898,10 @@ const courses = {
                 hours: '3-0-0',
                 credits: 3,
                 syllabus: 'https://cse.iitj.ac.in/images/pdf/BTech_AIDE_24092020.pdf',
-                semesterAvailability: ['odd','even'], 
+                semesterAvailability: ['odd', 'even'],
+                professors: [
+                    
+                ],
             },
             {
                 name: 'Autonomous Systems',
@@ -2112,7 +2909,10 @@ const courses = {
                 hours: '3-0-0',
                 credits: 3,
                 syllabus: 'https://cse.iitj.ac.in/images/pdf/curriculum/CSE-Courses-Details.pdf#page=58',
-                semesterAvailability: ['even'], 
+                semesterAvailability: ['even'],
+                professors: [
+                    { year: 2023, name: 'Dr. Rajendra Nagar' },
+                ],
             },
         ],
         socio_digital: [
@@ -2122,7 +2922,10 @@ const courses = {
                 hours: '0-0-2',
                 credits: 2,
                 syllabus: 'https://cse.iitj.ac.in/images/pdf/BTech_AIDE_24092020.pdf',
-                semesterAvailability: ['odd','even'], 
+                semesterAvailability: ['odd', 'even'],
+                professors: [
+                    
+                ],
             },
             {
                 name: 'Introduction to Haptics',
@@ -2130,7 +2933,10 @@ const courses = {
                 hours: '3-0-0',
                 credits: 3,
                 syllabus: 'https://cse.iitj.ac.in/images/pdf/BTech_AIDE_24092020.pdf',
-                semesterAvailability: ['even'], 
+                semesterAvailability: ['even'],
+                professors: [
+                    { year: 2023, name: 'Dr. Amit Bhardwaj' },
+                ],
             },
             {
                 name: 'Introduction to AR and VR',
@@ -2138,7 +2944,10 @@ const courses = {
                 hours: '3-0-0',
                 credits: 3,
                 syllabus: 'https://cse.iitj.ac.in/images/pdf/BTech_AIDE_24092020.pdf',
-                semesterAvailability: ['odd','even'], 
+                semesterAvailability: ['odd', 'even'],
+                professors: [
+                    
+                ],
             },
             {
                 name: 'Advanced Human-Machine Interaction',
@@ -2146,7 +2955,10 @@ const courses = {
                 hours: '3-0-0',
                 credits: 3,
                 syllabus: 'https://cse.iitj.ac.in/images/pdf/BTech_AIDE_24092020.pdf',
-                semesterAvailability: ['odd','even'], 
+                semesterAvailability: ['odd', 'even'],
+                professors: [
+                    
+                ],
             },
             {
                 name: 'Social Networks',
@@ -2154,7 +2966,10 @@ const courses = {
                 hours: '3-0-0',
                 credits: 3,
                 syllabus: 'https://syllabus-link.com/course3https://cse.iitj.ac.in/images/pdf/BTech_AIDE_24092020.pdf#page=38',
-                semesterAvailability: ['odd','even'], 
+                semesterAvailability: ['odd', 'even'],
+                professors: [
+                    { year: 2022, name: 'Dr. Suman Kundu' },
+                ],
             },
         ],
         sci_intell: [
@@ -2164,7 +2979,10 @@ const courses = {
                 hours: '3-0-0',
                 credits: 3,
                 syllabus: 'https://cse.iitj.ac.in/images/pdf/BTech_AIDE_24092020.pdf',
-                semesterAvailability: ['odd'], 
+                semesterAvailability: ['odd'],
+                professors: [
+                    { year: 2023, name: 'Dr. Dipanjan Roy' },
+                ],
             },
             {
                 name: 'Connectomics',
@@ -2172,7 +2990,10 @@ const courses = {
                 hours: '3-0-0',
                 credits: 3,
                 syllabus: 'https://cse.iitj.ac.in/images/pdf/BTech_AIDE_24092020.pdf',
-                semesterAvailability: ['even'], 
+                semesterAvailability: ['even'],
+                professors: [
+                    { year: 2023, name: 'Dr. Shilpa Dang' },
+                ],
             },
             {
                 name: 'Bioimaging',
@@ -2180,7 +3001,11 @@ const courses = {
                 hours: '3-0-0',
                 credits: 3,
                 syllabus: 'https://cse.iitj.ac.in/images/pdf/BTech_AIDE_24092020.pdf',
-                semesterAvailability: ['even'], 
+                semesterAvailability: ['even'],
+                professors: [
+                    { year: 2023, name: 'Dr. Priyanka Singh' },
+                    { year: 2022, name: 'Dr. Priyanka Singh' },
+                ],
             },
         ],
         applications: [
@@ -2190,7 +3015,10 @@ const courses = {
                 hours: '3-0-0',
                 credits: 3,
                 syllabus: 'https://cse.iitj.ac.in/images/pdf/BTech_AIDE_24092020.pdf#page=50',
-                semesterAvailability: ['odd','even'], 
+                semesterAvailability: ['odd', 'even'],
+                professors: [
+                    { year: 2022, name: 'Dr. Anil Kumar Tiwari' },
+                ],
             },
             {
                 name: 'Computer Vision',
@@ -2198,7 +3026,10 @@ const courses = {
                 hours: '3-0-0',
                 credits: 3,
                 syllabus: 'https://cse.iitj.ac.in/images/pdf/BTech_AIDE_24092020.pdf#page=40',
-                semesterAvailability: ['even'], 
+                semesterAvailability: ['even'],
+                professors: [
+                    { year: 2023, name: 'Dr. Anand Mishra' },
+                ],
             },
             {
                 name: 'Natural Language Understanding',
@@ -2206,7 +3037,10 @@ const courses = {
                 hours: '3-0-0',
                 credits: 3,
                 syllabus: 'https://cse.iitj.ac.in/images/pdf/BTech_AIDE_24092020.pdf#page=34',
-                semesterAvailability: ['even'], 
+                semesterAvailability: ['even'],
+                professors: [
+                    { year: 2023, name: 'Dr. Anand Mishra' },
+                ],
             },
             {
                 name: 'Speech Understanding',
@@ -2214,7 +3048,10 @@ const courses = {
                 hours: '3-0-0',
                 credits: 3,
                 syllabus: 'https://cse.iitj.ac.in/images/pdf/BTech_AIDE_24092020.pdf#page=51',
-                semesterAvailability: ['odd','even'], 
+                semesterAvailability: ['odd', 'even'],
+                professors: [
+                    
+                ],
             },
             {
                 name: 'Computational Linguistics',
@@ -2222,7 +3059,10 @@ const courses = {
                 hours: '3-0-0',
                 credits: 3,
                 syllabus: 'https://cse.iitj.ac.in/images/pdf/BTech_AIDE_24092020.pdf',
-                semesterAvailability: ['odd','even'], 
+                semesterAvailability: ['odd', 'even'],
+                professors: [
+                    
+                ],
             },
             {
                 name: 'Advanced Biometrics',
@@ -2230,7 +3070,10 @@ const courses = {
                 hours: '3-0-0',
                 credits: 3,
                 syllabus: 'https://cse.iitj.ac.in/images/pdf/BTech_AIDE_24092020.pdf#page=42',
-                semesterAvailability: ['odd','even'], 
+                semesterAvailability: ['odd', 'even'],
+                professors: [
+                    
+                ],
             },
             {
                 name: 'Computer Graphics',
@@ -2238,7 +3081,11 @@ const courses = {
                 hours: '3-0-0',
                 credits: 3,
                 syllabus: 'https://cse.iitj.ac.in/images/pdf/BTech_AIDE_24092020.pdf#page=43',
-                semesterAvailability: ['odd'], 
+                semesterAvailability: ['odd'],
+                professors: [
+                    { year: 2023, name: 'Dr. Rajendra Nagar' },
+                    { year: 2022, name: 'Dr. Rajendra Nagar' },
+                ],
             },
             {
                 name: 'Video Processing',
@@ -2246,7 +3093,10 @@ const courses = {
                 hours: '3-0-0',
                 credits: 3,
                 syllabus: 'https://cse.iitj.ac.in/images/pdf/BTech_AIDE_24092020.pdf#page=49',
-                semesterAvailability: ['odd','even'], 
+                semesterAvailability: ['odd', 'even'],
+                professors: [
+                    
+                ],
             },
             {
                 name: 'Animation',
@@ -2254,7 +3104,10 @@ const courses = {
                 hours: '3-0-0',
                 credits: 3,
                 syllabus: 'https://cse.iitj.ac.in/images/pdf/BTech_AIDE_24092020.pdf',
-                semesterAvailability: ['odd','even'], 
+                semesterAvailability: ['odd', 'even'],
+                professors: [
+                    
+                ],
             },
             {
                 name: 'GPU Programming',
@@ -2262,7 +3115,11 @@ const courses = {
                 hours: '3-0-0',
                 credits: 3,
                 syllabus: 'https://cse.iitj.ac.in/images/pdf/BTech_AIDE_24092020.pdf',
-                semesterAvailability: ['odd','even'], 
+                semesterAvailability: ['odd', 'even'],
+                professors: [
+                    { year: 2023, name: 'Dr. Dip Sankar Banerjee' },
+                    { year: 2021, name: 'Dr. Dip Sankar Banerjee' },
+                ],
             },
         ],
         cps_iot: [
@@ -2272,7 +3129,11 @@ const courses = {
                 hours: '3-0-0',
                 credits: 3,
                 syllabus: 'https://cse.iitj.ac.in/images/pdf/BTech_AIDE_24092020.pdf',
-                semesterAvailability: ['odd'], 
+                semesterAvailability: ['odd'],
+                professors: [
+                    { year: 2023, name: 'Dr. Anoop Jain' },
+                    { year: 2022, name: 'Dr. Anoop Jain' },
+                ],
             },
             {
                 name: 'Embedded Systems Design',
@@ -2280,7 +3141,11 @@ const courses = {
                 hours: '3-0-0',
                 credits: 3,
                 syllabus: 'https://cse.iitj.ac.in/images/pdf/BTech_AIDE_24092020.pdf',
-                semesterAvailability: ['even'], 
+                semesterAvailability: ['even'],
+                professors: [
+                    { year: 2023, name: 'Dr. Arpit Arvind Khandelwal' },
+                    { year: 2022, name: 'Dr. Malyala Pavana Ravi Sai Kiran' },
+                ],
             },
             {
                 name: 'Security in CPS',
@@ -2288,7 +3153,10 @@ const courses = {
                 hours: '3-0-0',
                 credits: 3,
                 syllabus: 'https://cse.iitj.ac.in/images/pdf/BTech_AIDE_24092020.pdf',
-                semesterAvailability: ['even'], 
+                semesterAvailability: ['even'],
+                professors: [
+                    { year: 2023, name: 'Dr. Anoop Jain' },
+                ],
             },
             {
                 name: 'Edge and Fog Computing',
@@ -2296,7 +3164,10 @@ const courses = {
                 hours: '3-0-0',
                 credits: 3,
                 syllabus: 'https://cse.iitj.ac.in/images/pdf/BTech_AIDE_24092020.pdf',
-                semesterAvailability: ['even'], 
+                semesterAvailability: ['even'],
+                professors: [
+                    { year: 2023, name: 'Dr. Sumit Kalra' },
+                ],
             },
             {
                 name: 'Real Time Systems',
@@ -2304,7 +3175,10 @@ const courses = {
                 hours: '3-0-0',
                 credits: 3,
                 syllabus: 'https://cse.iitj.ac.in/images/pdf/BTech_AIDE_24092020.pdf',
-                semesterAvailability: ['odd','even'], 
+                semesterAvailability: ['odd', 'even'],
+                professors: [
+                    
+                ],
             },
         ],
         data_dis: [
@@ -2314,7 +3188,10 @@ const courses = {
                 hours: '3-0-0',
                 credits: 3,
                 syllabus: 'https://cse.iitj.ac.in/images/pdf/BTech_AIDE_24092020.pdf',
-                semesterAvailability: ['odd','even'],
+                semesterAvailability: ['odd', 'even'],
+                professors: [
+                    
+                ],
             },
             {
                 name: 'Reliability Engineering and Life Testing',
@@ -2322,7 +3199,10 @@ const courses = {
                 hours: '3-0-0',
                 credits: 3,
                 syllabus: 'https://cse.iitj.ac.in/images/pdf/BTech_AIDE_24092020.pdf#page=55',
-                semesterAvailability: ['odd','even'],
+                semesterAvailability: ['odd', 'even'],
+                professors: [
+                    
+                ],
             },
             {
                 name: 'Introduction to Game Theory',
@@ -2331,6 +3211,9 @@ const courses = {
                 credits: 3,
                 syllabus: 'https://cse.iitj.ac.in/images/pdf/BTech_AIDE_24092020.pdf#page=54',
                 semesterAvailability: ['even'],
+                professors: [
+                    { year: 2023, name: 'Dr. Puneet Sharma' },
+                ],
             },
             {
                 name: 'Nonlinear Dynamics and Chaos',
@@ -2338,7 +3221,10 @@ const courses = {
                 hours: '3-0-0',
                 credits: 3,
                 syllabus: 'https://cse.iitj.ac.in/images/pdf/BTech_AIDE_24092020.pdf#page=59',
-                semesterAvailability: ['odd','even'],
+                semesterAvailability: ['odd', 'even'],
+                professors: [
+                    
+                ],
             },
             {
                 name: 'Differential Geometry',
@@ -2346,7 +3232,10 @@ const courses = {
                 hours: '3-0-0',
                 credits: 3,
                 syllabus: 'https://cse.iitj.ac.in/images/pdf/BTech_AIDE_24092020.pdf#page=58',
-                semesterAvailability: ['odd','even'],
+                semesterAvailability: ['odd', 'even'],
+                professors: [
+                    
+                ],
             },
             {
                 name: 'Introduction to Financial Engineering',
@@ -2355,6 +3244,9 @@ const courses = {
                 credits: 3,
                 syllabus: 'https://cse.iitj.ac.in/images/pdf/BTech_AIDE_24092020.pdf#page=53',
                 semesterAvailability: ['even'],
+                professors: [
+                    { year: 2023, name: 'Dr. Vivek Vijay' },
+                ],
             },
             {
                 name: 'Computational Chemistry',
@@ -2362,7 +3254,10 @@ const courses = {
                 hours: '3-0-0',
                 credits: 3,
                 syllabus: 'https://cse.iitj.ac.in/images/pdf/BTech_AIDE_24092020.pdf',
-                semesterAvailability: ['odd','even'],
+                semesterAvailability: ['odd', 'even'],
+                professors: [
+                    
+                ],
             },
         ],
     },
