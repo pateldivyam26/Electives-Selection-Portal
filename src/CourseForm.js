@@ -4,15 +4,16 @@ import Logo from "./images/iitj_logo.png";
 
 const CourseForm = ({ onFormSubmit }) => {
     const [branch, setBranch] = useState('');
-    const [semester, setSemester] = useState('');
+    // const [semester, setSemester] = useState('');
     const [credits, setCredits] = useState('');
     const [domain, setDomain] = useState('');
     const [formValid, setFormValid] = useState(true);
+    const [showPopup, setShowPopup] = useState(false);
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        if (branch && semester && credits && domain) {
-            onFormSubmit({ branch, semester, credits, domain });
+        if (branch && credits && domain) {
+            onFormSubmit({ branch, credits, domain });
         } else {
             setFormValid(false);
         }
@@ -27,10 +28,115 @@ const CourseForm = ({ onFormSubmit }) => {
         setDomain(e.target.value);
     };
 
+    const openPopup = () => {
+        setShowPopup(true);
+    };
+
+    const closePopup = () => {
+        setShowPopup(false);
+    };
+
     return (
         <div className="form-container">
             <img src={Logo} className="logo-login" alt="Logo" />
             <h1>Electives Selection Portal</h1>
+            <button className="instruction-button" onClick={openPopup}>
+                Guidelines 
+            </button>
+
+            {showPopup && (
+                <div className="popup" onClick={closePopup}>
+                    <div className="popup-content" onClick={(e) => e.stopPropagation()}>
+                    <button className="close-button" onClick={closePopup}>X</button>
+                    <br/><br/>
+                        <table className="instructions-table">
+                        <thead>
+                                <tr>
+                                    <th>S.No.</th>
+                                    <th>Level</th>
+                                    <th>Credit Requirements</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>1</td>
+                                    <td>100</td>
+                                    <td rowSpan={2}>Cr &gt;= 0</td>
+                                </tr>
+                                <tr>
+                                    <td>2</td>
+                                    <td>200</td>
+                                </tr>
+                                <tr>
+                                    <td>3</td>
+                                    <td>300</td>
+                                    <td>Cr &gt;= 38</td>
+                                </tr>
+                                <tr>
+                                    <td>4</td>
+                                    <td>400</td>
+                                    <td rowSpan={2}>Cr &gt;= 75</td>
+                                </tr>
+                                <tr>
+                                    <td>5</td>
+                                    <td>600</td>
+                                </tr>
+                                <tr>
+                                    <td>6</td>
+                                    <td>700</td>
+                                    <td>Cr &gt;= 85 with CGPA &gt;= 6*</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            )}
+
+            {/* {showPopup && ( // Render the popup content if showPopup is true
+                <div className="popup">
+                    <div className="popup-content">
+                        <table className="instructions-table">
+                            <thead>
+                                <tr>
+                                    <th>S.No.</th>
+                                    <th>Level</th>
+                                    <th>Credit Requirements</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>1</td>
+                                    <td>100</td>
+                                    <td rowSpan={2}>Cr &gt;= 0</td>
+                                </tr>
+                                <tr>
+                                    <td>2</td>
+                                    <td>200</td>
+                                </tr>
+                                <tr>
+                                    <td>3</td>
+                                    <td>300</td>
+                                    <td>Cr &gt;= 38</td>
+                                </tr>
+                                <tr>
+                                    <td>4</td>
+                                    <td>400</td>
+                                    <td rowSpan={2}>Cr &gt;= 75</td>
+                                </tr>
+                                <tr>
+                                    <td>5</td>
+                                    <td>600</td>
+                                </tr>
+                                <tr>
+                                    <td>6</td>
+                                    <td>700</td>
+                                    <td>Cr &gt;= 75 with CGPA &gt;= 6*</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            )} */}
             <form onSubmit={handleSubmit}>
                 <label>
                     Branch:
@@ -134,7 +240,7 @@ const CourseForm = ({ onFormSubmit }) => {
                     </select>
                 </label>
 
-                <label>
+                {/* <label>
                     Semester:
                     <input
                         className="input-field"
@@ -144,7 +250,7 @@ const CourseForm = ({ onFormSubmit }) => {
                         value={semester}
                         onChange={(e) => setSemester(e.target.value)}
                     />
-                </label>
+                </label> */}
 
                 <label>
                     Credits Completed:
