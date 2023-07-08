@@ -1,61 +1,86 @@
-import React from 'react';
-import './CourseList.css';
-import courses from './CourseData.js';
-import jsPDF from 'jspdf';
-import 'jspdf-autotable';
+import React from "react";
+import "./CourseList.css";
+import courses from "./CourseData.js";
+import jsPDF from "jspdf";
+import "jspdf-autotable";
 
-const CourseList = ({ branch, semester, credits, domain }) => {
+const CourseList = ({ branch, credits, domain }) => {
     const filteredCourses =
         courses[branch] && courses[branch][domain]
             ? courses[branch][domain].filter((course) => {
+                if (Number(credits) >= 38 && course.level === 300) return true;
                 if (
-                    (semester % 2 === 0 && course.semesterAvailability.includes('even')) ||
-                    (semester % 2 !== 0 && course.semesterAvailability.includes('odd'))
-                ) {
-                    if (Number(credits) >= 38 && course.level === 300) return true;
-                    if (
-                        Number(credits) >= 75 &&
-                        (course.level === 400 || course.level === 600 || course.level === 300)
-                    )
-                        return true;
-                    if (Number(credits) >= 85) return true;
-                }
+                    Number(credits) >= 75 &&
+                    (course.level === 400 ||
+                        course.level === 600 ||
+                        course.level === 300)
+                )
+                    return true;
+                if (Number(credits) >= 85) return true;
                 return false;
             })
             : [];
-    
+
     const generatePDF = () => {
-        const doc = new jsPDF('landscape');
-        const tableData = filteredCourses.map((course) => [
-            course.name,
-            course.level,
-            course.hours,
-            course.credits,
-            course.syllabus,
-        ]);
-        
+        const doc = new jsPDF("landscape");
+        const tableData = filteredCourses.map((course) => {
+            const professors = course.professors.map((professor) => `${professor.year}: ${professor.name}`);
+            return [
+                course.name,
+                course.level,
+                course.hours,
+                course.credits,
+                course.syllabus,
+                professors.join('\n'),
+            ];
+        });
+
         doc.autoTable({
-            head: [['Course Name', 'Level', 'L-T-P', 'Credits', 'Syllabus']],
+            head: [['Course Name', 'Level', 'L-T-P', 'Credits', 'Syllabus', 'Professors']],
             body: tableData,
         });
 
-        doc.save('course_list.pdf');
+
+        doc.save("course_list.pdf");
     };
 
     return (
         <div className="course-list-container">
             <h1>AVAILABLE COURSES</h1>
-            <br/>
+            <br />
             {filteredCourses.length > 0 ? (
                 <React.Fragment>
                     <div className="course-cards-container">
                         {filteredCourses.map((course, index) => (
                             <div key={index} className="course-card">
                                 <h2>{course.name}</h2>
-                                <p><b>Level:</b> {course.level}</p>
-                                <p><b>L-T-P:</b> {course.hours}</p>
-                                <p><b>Credits:</b> {course.credits}</p>
-                                <br/>
+                                <p>
+                                    <b>Level:</b> {course.level}
+                                </p>
+                                <p>
+                                    <b>L-T-P:</b> {course.hours}
+                                </p>
+                                <p>
+                                    <b>Credits:</b> {course.credits}
+                                </p>
+                                {course.professors.length > 0 && (
+                                    <p>
+                                        <b>Professors:</b>
+                                        <br />
+                                        {course.professors.map((professor, index) => (
+                                            <span key={index}>
+                                                <b>{professor.year}:</b>{" "}
+                                                {professor.name.split(",").map((name, i) => (
+                                                    <React.Fragment key={i}>
+                                                        {name.trim()}
+                                                        <br />
+                                                    </React.Fragment>
+                                                ))}
+                                            </span>
+                                        ))}
+                                    </p>
+                                )}
+                                <br />
                                 <a
                                     href={course.syllabus}
                                     target="_blank"
@@ -81,4 +106,3 @@ const CourseList = ({ branch, semester, credits, domain }) => {
 };
 
 export default CourseList;
-
